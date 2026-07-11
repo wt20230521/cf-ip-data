@@ -39,5 +39,5 @@
   "githubApiUrl#GitHub 加速代理": "",
   "adaptiveApi#订阅转换前缀": "",
   "vlessMode#参数模式 (manual / template)": "template",
-  "templateParams#VLESS 模板参数 (仅 template 模式)": {"uuid":"544fbc09-4a07-401b-99c0-e91254094454","host":"sni.868001.xyz","port":"443","path":"/proxyip=tw.william.us.ci","security":"tls","encryption":"none","flow":"","alpn":"","fp":"chrome","allowInsecure":"0","sni":"sni.868001.xyz","type":"ws"}
+  "templateParams#VLESS 模板参数 (仅 template 模式)": {"uuid":"2e16f730-f641-449a-9ca1-fa0cf3f16118","host":"open.nmbot.de5.net","port":"2083","path":"/proxyip=tw.william.us.ci","security":"tls","encryption":"none","flow":"","alpn":"","fp":"chrome","allowInsecure":"0","sni":"open.nmbot.de5.net","type":"ws"}
 }
