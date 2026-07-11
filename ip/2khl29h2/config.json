@@ -10,9 +10,9 @@
   "encryptedCfKey#加密后的 Cloudflare Global API Key": "",
   "cfDeployUuid#CF 部署 UUID": "a5a830f2-3f86-4b74-bb6d-482a331a8758",
   "remoteUrlHistory#远程 URL 历史记录": ["https://gh-proxy.org/https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt"],
-  "customUrl#自定义列表远程 URL": "https://gh-proxy.org/https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt",
+  "customUrl#自定义列表远程 URL": "",
   "channels#频道列表": [{"id":1,"name":"电信宽带","builtIn":true},{"id":2,"name":"移动宽带","builtIn":true},{"id":3,"name":"电信5G","builtIn":true}],
-  "selectedRegions#选中的地区筛选 (空=全部)": ["FRA","HKG","LAX","LHR","NRT","SEA","SIN","SJC","未知"],
+  "selectedRegions#选中的地区筛选 (空=全部)": [],
   "selectedTypes#选中的 IP 类型 (v4/v6)": ["v4","v6"],
   "selectedPorts#选中的端口筛选 (空=全部)": [],
   "latencyThreshold#延迟阈值 (ms)": 9999,
@@ -39,5 +39,5 @@
   "githubApiUrl#GitHub 加速代理": "",
   "adaptiveApi#订阅转换前缀": "",
   "vlessMode#参数模式 (manual / template)": "template",
-  "templateParams#VLESS 模板参数 (仅 template 模式)": {"uuid":"2e16f730-f641-449a-9ca1-fa0cf3f16118","host":"open.nmbot.de5.net","port":"2083","path":"/proxyip=tw.william.us.ci","security":"tls","encryption":"none","flow":"","alpn":"","fp":"chrome","allowInsecure":"0","sni":"open.nmbot.de5.net","type":"ws"}
+  "templateParams#VLESS 模板参数 (仅 template 模式)": {"uuid":"06b65903-406d-4a41-8463-6fd5c0ee7798","host":"sni.868001.xyz","port":"8443","path":"/proxyip=tw.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5","security":"tls","encryption":"none","flow":"","alpn":"","fp":"chrome","allowInsecure":"0","sni":"sni.868001.xyz","type":"ws"}
 }
