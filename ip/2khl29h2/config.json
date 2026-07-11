@@ -12,7 +12,7 @@
   "remoteUrlHistory#远程 URL 历史记录": ["https://gh-proxy.org/https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt"],
   "customUrl#自定义列表远程 URL": "",
   "channels#频道列表": [{"id":1,"name":"电信宽带","builtIn":true},{"id":2,"name":"移动宽带","builtIn":true},{"id":3,"name":"电信5G","builtIn":true}],
-  "selectedRegions#选中的地区筛选 (空=全部)": ["FRA","HKG","LAX","LHR","NRT","SEA","SIN","SJC"],
+  "selectedRegions#选中的地区筛选 (空=全部)": [],
   "selectedTypes#选中的 IP 类型 (v4/v6)": ["v4","v6"],
   "selectedPorts#选中的端口筛选 (空=全部)": [],
   "latencyThreshold#延迟阈值 (ms)": 9999,
