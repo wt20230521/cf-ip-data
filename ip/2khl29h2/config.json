@@ -2,17 +2,17 @@
   "randomCode#当前二级目录随机码": "2khl29h2",
   "tokenType#GitHub Token 类型 (classic / fine)": "fine",
   "encryptedToken#加密后的 GitHub Token": "6dTe4BnZ3dHUWNzRI1ESFh0THh3RCNjU0REMvRnQsRmYN1kRphWOOdnTWREN1JEOMNDNyg2YwkUZnl2XiNDUzg0cUVXZvJ0YwE0Syk1N3EUMx8FdhB3XiVHa0l2Z",
-  "sourceV4#是否启用内置 IPv4 列表": true,
-  "v4Slider#IPv4 随机数量": "4991",
+  "sourceV4#是否启用内置 IPv4 列表": false,
+  "v4Slider#IPv4 随机数量": "4842",
   "sourceV6#是否启用内置 IPv6 列表": false,
   "v6Slider#IPv6 随机数量": "100",
   "cfEmail#Cloudflare 账号邮箱": "",
   "encryptedCfKey#加密后的 Cloudflare Global API Key": "",
   "cfDeployUuid#CF 部署 UUID": "a5a830f2-3f86-4b74-bb6d-482a331a8758",
-  "remoteUrlHistory#远程 URL 历史记录": ["https://gh-proxy.org/https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt"],
+  "remoteUrlHistory#远程 URL 历史记录": ["https://gh-proxy.org/https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt","https://gh-proxy.org/https://raw.githubusercontent.com/e13815332/subyd/refs/heads/main/ip.txt","https://raw.githubusercontent.com/e13815332/subyd/refs/heads/main/ip.txt"],
   "customUrl#自定义列表远程 URL": "https://gh-proxy.org/https://raw.githubusercontent.com/HandsomeMJZ/cfip/refs/heads/main/full_ips.txt",
   "channels#频道列表": [{"id":1,"name":"电信宽带","builtIn":true},{"id":2,"name":"移动宽带","builtIn":true},{"id":3,"name":"电信5G","builtIn":true}],
-  "selectedRegions#选中的地区筛选 (空=全部)": ["FRA","HKG","LAX","LHR","NRT","SIN","SJC"],
+  "selectedRegions#选中的地区筛选 (空=全部)": ["FRA","HKG","LAX","NRT","SIN"],
   "selectedTypes#选中的 IP 类型 (v4/v6)": ["v4","v6"],
   "selectedPorts#选中的端口筛选 (空=全部)": [],
   "latencyThreshold#延迟阈值 (ms)": 9999,
@@ -39,5 +39,5 @@
   "githubApiUrl#GitHub 加速代理": "",
   "adaptiveApi#订阅转换前缀": "",
   "vlessMode#参数模式 (manual / template)": "template",
-  "templateParams#VLESS 模板参数 (仅 template 模式)": {"uuid":"2e16f730-f641-449a-9ca1-fa0cf3f16118","host":"open.nmbot.de5.net","port":"8443","path":"/proxyip=tw.william.us.ci","security":"tls","encryption":"none","flow":"","alpn":"","fp":"chrome","allowInsecure":"0","sni":"open.nmbot.de5.net","type":"ws"}
+  "templateParams#VLESS 模板参数 (仅 template 模式)": {"uuid":"2e16f730-f641-449a-9ca1-fa0cf3f16118","host":"open.nmbot.de5.net","port":"12345","path":"/proxyip=tw.william.us.ci","security":"tls","encryption":"none","flow":"","alpn":"","fp":"chrome","allowInsecure":"0","sni":"open.nmbot.de5.net","type":"ws"}
 }
