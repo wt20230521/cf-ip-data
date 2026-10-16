@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+  <background>
+    <vector
+        android:width="162dp"
+        android:height="162dp"
+        android:viewportWidth="162"
+        android:viewportHeight="162">
+      <!-- 底色：克莱因蓝 #002FA7（PrismTun 独占品牌色，大牌图标公理：占一个颜色） -->
+      <path android:fillColor="#FF002FA7" android:pathData="M0,0h162v162h-162z"/>
+    </vector>
+  </background>
+  <foreground>
+    <vector
+        android:width="162dp"
+        android:height="162dp"
+        android:viewportWidth="162"
+        android:viewportHeight="162">
+      <!-- L+ 测速仪表盘 · 进度弧版（R6 定稿）
+           设计系统：克莱因蓝底 / 青色锁定 / 光谱三色（青#22D3EE 紫#AFA9EC 珊瑚#F0997B）
+           内容全部收在 adaptive 安全区内（162 画布 → 108dp 的 66dp 安全区，r≤49.5）
+           构图：轨道弧串 7 主刻度 + 4 次刻度 → 青色进度弧（-210°→-55°，快而未满）→ 端点圆点 + 中心 hub
+           纯平涂无渐变：aapt2 会拆内联渐变为外部资源 ID，目标 APK 没有 → 装包即崩 -->
+
+      <!-- ① 轨道弧：把所有刻度串成一整仪（R6 去"突兀"关键招，替代原双环外圈） -->
+      <path
+          android:pathData="M44.5,102.1 A42.1,42.1 0 1 1 117.5,59.9"
+          android:strokeWidth="2.2"
+          android:strokeLineCap="round"
+          android:strokeColor="#47FFFFFF"/>
+      <!-- ② 主刻度 7 根：白→浅青→青→紫→珊瑚渐进（顶部加浅青过渡档，消跳色） -->
+      <path android:pathData="M39.7,104.9 L49.4,99.3"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M34.1,72.7 L45.1,74.6"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M50.3,44.5 L57.5,53.0"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FF8AE5F7"/>
+      <path android:pathData="M81,33.3 L81,44.5"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FF22D3EE"/>
+      <path android:pathData="M111.7,44.5 L104.5,53.0"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FF22D3EE"/>
+      <path android:pathData="M127.9,72.7 L116.9,74.6"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFAFA9EC"/>
+      <path android:pathData="M122.3,57.1 L112.6,62.7"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFF0997B"/>
+      <!-- ③ 次刻度 4 根：短而淡，只做密度节奏 -->
+      <path android:pathData="M36.7,73.2 L42.0,74.1"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#73FFFFFF"/>
+      <path android:pathData="M42.1,58.5 L46.7,61.2"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#73FFFFFF"/>
+      <path android:pathData="M65.6,38.7 L67.5,43.8"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#73FFFFFF"/>
+      <path android:pathData="M96.4,38.7 L94.5,43.8"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#73FFFFFF"/>
+      <!-- ④ 进度弧：青色，从刻度起点亮到青区（针 → 弧，攻击性归零，Activity ring 语汇） -->
+      <path
+          android:pathData="M52.9,97.2 A32.4,32.4 0 0 1 99.6,54.5"
+          android:strokeWidth="5.5"
+          android:strokeLineCap="round"
+          android:strokeColor="#FF22D3EE"/>
+      <!-- ⑤ 端点圆点：进度弧的落点，青盘白芯 -->
+      <path android:fillColor="#FF22D3EE" android:pathData="M99.6,50.7 a3.8,3.8 0 1,0 0.1,0 z"/>
+      <path android:fillColor="#FFFFFFFF" android:pathData="M99.6,52.8 a1.7,1.7 0 1,0 0.1,0 z"/>
+      <!-- ⑥ 中心 hub：白环 + 青芯（被选中的那一个自己会亮） -->
+      <path
+          android:pathData="M86.2,81 a5.2,5.2 0 1,0 0.1,0 z"
+          android:strokeWidth="2.2"
+          android:strokeColor="#CCFFFFFF"/>
+      <path android:fillColor="#FF22D3EE" android:pathData="M83.4,81 a2.6,2.6 0 1,0 0.1,0 z"/>
+    </vector>
+  </foreground>
+  <!-- Android 13 主题图标 / 通知栏单色层：系统只取 alpha 重新染色，颜色写白占位 -->
+  <monochrome>
+    <vector
+        android:width="162dp"
+        android:height="162dp"
+        android:viewportWidth="162"
+        android:viewportHeight="162">
+      <path
+          android:pathData="M44.5,102.1 A42.1,42.1 0 1 1 117.5,59.9"
+          android:strokeWidth="2.2"
+          android:strokeLineCap="round"
+          android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M39.7,104.9 L49.4,99.3"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M34.1,72.7 L45.1,74.6"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M50.3,44.5 L57.5,53.0"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M81,33.3 L81,44.5"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M111.7,44.5 L104.5,53.0"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M127.9,72.7 L116.9,74.6"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M122.3,57.1 L112.6,62.7"
+          android:strokeWidth="2.8" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M36.7,73.2 L42.0,74.1"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M42.1,58.5 L46.7,61.2"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M65.6,38.7 L67.5,43.8"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path android:pathData="M96.4,38.7 L94.5,43.8"
+          android:strokeWidth="2.2" android:strokeLineCap="round" android:strokeColor="#FFFFFFFF"/>
+      <path
+          android:pathData="M52.9,97.2 A32.4,32.4 0 0 1 99.6,54.5"
+          android:strokeWidth="5.5"
+          android:strokeLineCap="round"
+          android:strokeColor="#FFFFFFFF"/>
+      <path android:fillColor="#FFFFFFFF" android:pathData="M99.6,50.7 a3.8,3.8 0 1,0 0.1,0 z"/>
+      <path
+          android:pathData="M86.2,81 a5.2,5.2 0 1,0 0.1,0 z"
+          android:strokeWidth="2.2"
+          android:strokeColor="#FFFFFFFF"/>
+    </vector>
+  </monochrome>
+</adaptive-icon>

@@ -1,0 +1,19 @@
+# PrismTun 订阅托管 Worker —— wrangler 配置
+# 用命令行部署时用（面板部署可忽略本文件，但 KV 绑定名必须叫 SUB_KV）
+
+name = "prismtun-sub"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+# KV 命名空间绑定：先在面板创建 KV（名字随意），把生成的 id 填到这里
+[[kv_namespaces]]
+binding = "SUB_KV"
+id = "在这里填KV命名空间的ID"
+
+# 上传口令不要写这里，用命令加密写入：
+#   npx wrangler secret put UPLOAD_TOKEN
+# （面板部署：设置 → 变量和机密 → 添加 → 类型选「机密」→ 名称 UPLOAD_TOKEN）
+
+[vars]
+# 可留空；读订阅不需要口令
+# UPLOAD_TOKEN = "不推荐明文写这里"

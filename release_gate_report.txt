@@ -1,0 +1,743 @@
+PrismTun 发布门禁 · 2026-10-16 21:21:05
+规则：任何一环失败 → 立即中止，禁止交付
+
+======== [21:21:06] 0/8 重建补丁链 ========
+D:\WorkBuddy\test2\IP测评改造\tools\patch_cloud.py:176: SyntaxWarning: invalid escape sequence '\/'
+  为什么不用 replace 正则：JS 源码写在 Python 普通三引号里，正则里的 \/ 是
+==============================================================
+index.html 改造
+==============================================================
+  改造前: 439465 字符
+  0. 删除 :root/body.dark 死代码色板  OK
+  1. pageParams 取消默认激活（页面保留）   OK
+  1b. pageParams 解除强制隐藏        未命中(跳过)
+  2. pageHome 设为默认页            OK
+  3a. 接口管理导航项定位                OK
+  3. 导航保留「参数设置」并移到接口管理之后       OK
+  4. 导航首页设为激活                  OK
+  4b. 导航 PrismTun 图标换 radar    OK (home→radar)
+  5. 清空第三方脚本默认值                OK
+  6. 兜底清除第三方 URL               无需
+  7. 表头去掉 8000 上限说明            OK
+  8. 兜底清理 8000 提示              无需
+  9. 彻底删除 privateParamCard4    OK (2 个带id元素)
+  9. 彻底删除 privateParamCard0    OK (6 个带id元素)
+  9. 彻底删除 privateParamCard1    OK (8 个带id元素)
+  9. 彻底删除 privateParamCard3    OK (17 个带id元素)
+  9c. 混淆脚本兼容占位                 OK (33 个，原地替换)
+  9b. 清理错位注释                   OK
+  10. 删除「接口链接」卡标题              OK (1 处)
+  11. 隐藏原版频道列表卡（占位 URL 远端 404） OK (1 处)
+  改造后: 432830 字符 (净变化 -6635)
+  输出  : D:\WorkBuddy\test2\IP测评改造\work\index.html
+  当前默认页: pageHome
+  第三方脚本地址: 已清除
+  导航栏项数: 4
+
+结果: 通过
+[run_all] patch_html 完成
+==============================================================
+Material Icons 字体离线化
+==============================================================
+  替换 CDN <link>                  OK
+  内嵌字体块大小: 167 KB
+  改造前: 431923 字符 → 改造后: 603489 字符
+  输出  : D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_fonts 完成
+==================================================================
+示例可编辑补丁
+==================================================================
+输入: D:\WorkBuddy\test2\IP测评改造\work\index.html (589.3 KB)
+输出: D:\WorkBuddy\test2\IP测评改造\work\index.html (600.2 KB, +10.8 KB)
+
+清除 third-party value: 0 处
+
+自检:
+  补丁脚本已注入                  ✓
+  ✏️ 自定义示例按钮               ✓
+  ✏️ 远程源按钮                 ✓
+  localStorage 键: 示例       ✓
+  localStorage 键: 远程源      ✓
+  捕获式拦截                    ✓
+  残留 byJoey               0 ✓
+  残留 少年你相信光吗              0 ✓
+
+结果: 通过
+[run_all] patch_example 完成
+==============================================================
+接口管理改造
+==============================================================
+  0. 清理遗留注释                  OK (3 处)
+  1. 页签改标题                   OK
+  2. 注入三网订阅补丁                OK (42596 字符)
+  改造前: 614578 字符 → 改造后: 657127 字符
+  输出  : D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_interface 完成
+==============================================================
+免测评直接出节点
+==============================================================
+  注入「⚡导入节点」补丁                OK (41104 字符)
+  改造前: 657127 字符 → 改造后: 698232 字符
+[run_all] patch_direct 完成
+==============================================================
+滑条标签口径统一（滑条值 × 已选端口数）
+==============================================================
+  注入「滑条标签校准」补丁               OK (5105 字符)
+  改造前: 698232 字符 → 改造后: 703338 字符
+[run_all] patch_slider 完成
+==============================================================
+数据源预设按钮
+==============================================================
+  JS 语法自检              OK
+  注入「数据源预设」补丁                OK (9040 字符)
+  改造前: 703338 字符 → 改造后: 712379 字符
+[run_all] patch_source 完成
+[presets] 注入预设按钮 HTML
+[presets] 注入 CSS
+[presets] 注入脚本（事件委托）
+[presets] 完成 → work/index.html
+[run_all] patch_presets 完成
+==============================================================
+首页操作按钮：图标 + 文字 胶囊化 v2
+==============================================================
+  替换按钮: 8 / 8
+  改造前: 714456 字符 → 改造后: 714806 字符
+  输出  : D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_homeui 完成
+  已注入 Clash YAML 订阅生成补丁 -> D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_clashyaml 完成
+  已注入云端订阅补丁 -> D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_cloud 完成
+==================================================
+  __ipxQrPatch 注入（QR 库 + 弹窗）       OK
+  输出: D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_qrcode 完成
+==============================================================
+数据源卡人性化重组
+==============================================================
+  JS 语法自检              OK
+  注入「UI 重组」补丁                OK (100937 字符)
+  改造前: 841902 字符 → 改造后: 942840 字符
+[run_all] patch_uiux 完成
+==============================================================
+新手引导折叠卡补丁 (patch_guide)
+==============================================================
+  JS 语法自检              OK
+  注入引导卡组件            OK (JS 7653 字符)
+  改造前: 942840 字符 → 改造后: 953982 字符
+[run_all] patch_guide 完成
+==============================================================
+导出订阅弹窗重构
+==============================================================
+  注入导出弹窗补丁                   OK (JS 37454 字符)
+  改造前: 953982 字符 → 改造后: 991621 字符
+[run_all] patch_export 完成
+==============================================================
+界面改名：IP测评/优选雷达 → PrismTun
+==============================================================
+  OK: <title>PrismTun · 云享版</title>
+  已是新版(跳过): <title>PrismTun · 云享版</title>
+  OK: <h1><i class="material-icons">change_history</i>PrismTun</
+  已是新版(跳过): <h1><i class="material-icons">change_history</i>
+  OK: 导航标签 → PrismTun（保留 radar 图标）
+  [提示] 正文仍残留 1 处旧名（多为注释/内部标记，不影响显示）
+  替换 3 处，输出: D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_rename 完成
+==============================================================
+Glass Panel 昼夜双主题注入
+==============================================================
+  1. 注入双主题样式                     OK (17138 字符)
+  2. 注入主题切换脚本                    OK
+  改造前: 991642 字符 → 改造后: 1009980 字符
+  输出  : D:\WorkBuddy\test2\IP测评改造\work\index.html
+[run_all] patch_theme 完成
+[run_all] 全部补丁应用完毕
+  ✔ 补丁链重建通过
+
+======== [21:21:09] 1/8 补丁契约检查（17 个补丁的后置条件） ========
+================ 补丁契约检查（17 个补丁） ================
+
+【patch_html】页面骨架：四页导航 + 远程框 + 基线死代码块已清
+  ✓ 含 «data-page="home"»
+  ✓ 含 «data-page="extend"»
+  ✓ 含 «data-page="interface"»
+  ✓ 含 «data-page="params"»
+  ✓ 含 «id="remoteDataInput"»
+  ✓ 含 «material-icons">radar</i> <span>PrismTun</span»
+  ✓ 不含 «:root{»
+  ✓ 唯一 «id="remoteDataInput"»
+  ✓ 唯一 «material-icons">radar</i> <span>PrismTun»
+
+【patch_fonts】字体离线化：不得残留任何外部字体 CDN
+  ✓ 不含 «fonts.googleapis.com»
+  ✓ 不含 «fonts.gstatic.com»
+  ✓ 不含 «gfonts»
+  ✓ 不含 «cdn.jsdelivr.net»
+
+【patch_interface】模板/命名/导出句柄 + 未实测标注
+  ✓ 含 «function applyTpl»
+  ✓ 含 «function nodeName»
+  ✓ 含 «__ipxExport»
+  ✓ 含 «未实测»
+
+【patch_example】示例/候选源运行时可编辑补丁
+  ✓ 含 «__ipcheckExamplePatch»
+
+【patch_direct】B1 导入自持锁 + B3 幽灵 key 清理（只清理不写入）
+  ✓ 含 «__ipxImportBusy»
+  ✓ 含 «removeItem('ipcheck_auto_gather_last')»
+  ✓ 不含 «setItem('ipcheck_auto_gather_last'»
+
+【patch_homeui】首页自定义列表 + 四维筛选接管
+  ✓ 含 «ipxLatCard»
+  ✓ 含 «ipxSortedRows»
+  ✓ 含 «__ipxHomeFilter»
+  ✓ 含 «IPX_PORT_PICK»
+  ✓ 含 «IPX_TYPE_PICK»
+
+【patch_clashyaml】A 方案 Clash YAML 生成器：同源 mergedNodes→buildContent→解析→proxies/groups/rules
+  ✓ 含 «__ipcheckClashYamlPatch»
+  ✓ 含 «function buildYaml»
+  ✓ 含 «proxy-groups»
+  ✓ 含 «MATCH»
+  ✓ 含 «window.__ipxClash»
+  ✓ 含 «uniqName»
+  ✓ 不含 «GEOSITE»
+  ✓ 不含 «GEOIP»
+  ✓ 不含 «external-controller»
+
+【patch_cloud】B2 上传在飞守卫 + 上传收口 + 状态条 + N4 禁双重 base64 + A 方案双格式上传
+  ✓ 含 «__ipxUpAllBusy»
+  ✓ 含 «tidyChannelUploads»
+  ✓ 含 «tipPaint»
+  ✓ 含 «content: content»
+  ✓ 含 «ipcheck_cloud_url_yaml_»
+  ✓ 含 «yamlKey»
+  ✓ 含 «postKey»
+  ✓ 不含 «content: b64(content)»
+  ✓ 唯一 «content: content»
+
+【patch_qrcode】订阅二维码弹窗：离线内联 qrcode-generator 库 + 居中弹窗 + 自动选版本
+  ✓ 含 «__ipxQrPatch»
+  ✓ 含 «window.__ipxQr»
+  ✓ 含 «ipxQrMask»
+  ✓ 含 «qrcode»
+  ✓ 含 «createDataURL»
+  ✓ 含 «扫码添加订阅»
+  ✓ 含 «code length overflow»
+
+【patch_uiux】②段来源行/选中即拉取/bento 概览 + 旧存档迁移
+  ✓ 含 «ipxUxSourceRow»
+  ✓ 含 «ipxApiPull»
+  ✓ 含 «ipxBentoBuild»
+  ✓ 含 «__ipxAutoBusy»
+  ✓ 含 «ipcheck_api_catalog»
+  ✓ 含 «ipcheck_src_saved»
+
+【patch_guide】T2 指引 tip 指向「各 N 条（仅API）」框
+  ✓ 含 «各 N 条（仅API）»
+
+【patch_export】mergedNodes 唯一口径（实测优先）+ buildContent
+  ✓ 含 «function mergedNodes»
+  ✓ 含 «function buildContent»
+  ✓ 唯一 «function mergedNodes»
+
+【patch_rename】品牌焕新：导航/h1 全部 PrismTun，旧名清零
+  ✓ 含 «<span>PrismTun</span>»
+  ✓ 含 «change_history»
+  ✓ 不含 «<span>IP测评</span>»
+  ✓ 不含 «<h1><i class="material-icons">speed</i>»
+
+【patch_presets】预设盒子 + 连接超时可调
+  ✓ 含 «__ipcheckPresetPatch»
+  ✓ 含 «ipx-preset»
+  ✓ 含 «ipxPresetBox»
+  ✓ 含 «connTimeout»
+
+【patch_slider】线程滑块 + 统计行
+  ✓ 含 «ipxSlider»
+  ✓ 含 «ipxStatBtn»
+  ✓ 含 «ipxStatRow»
+
+【patch_source】三网 URL 源（ct/cmcc/cu 路径末段识别 + swapIspUrl）
+  ✓ 含 «__ipxSource»
+  ✓ 含 «cmUrl»
+  ✓ 含 «swapIspUrl»
+
+【patch_theme】三级 token + 双色板 + 三网色
+  ✓ 含 «--radius-sm»
+  ✓ 含 «--radius-pill»
+  ✓ 含 «--fs-base»
+  ✓ 含 «--shadow-md»
+  ✓ 含 «--net-ct»
+  ✓ 含 «body.dark»
+  ✓ 含 «body:not(.dark)»
+
+================ 覆盖度检查 ================
+  ✓ patch_clashyaml 有契约
+  ✓ patch_cloud 有契约
+  ✓ patch_direct 有契约
+  ✓ patch_example 有契约
+  ✓ patch_export 有契约
+  ✓ patch_fonts 有契约
+  ✓ patch_guide 有契约
+  ✓ patch_homeui 有契约
+  ✓ patch_html 有契约
+  ✓ patch_interface 有契约
+  ✓ patch_presets 有契约
+  ✓ patch_qrcode 有契约
+  ✓ patch_rename 有契约
+  ✓ patch_slider 有契约
+  ✓ patch_source 有契约
+  ✓ patch_theme 有契约
+  ✓ patch_uiux 有契约
+
+================ 汇总 ================
+通过 99 / 失败 0 / 警告 0
+  ✔ 契约检查通过
+
+======== [21:21:11] 2/8 链路探针矩阵（7 场景） ========
+句柄就绪: __ipxExport=true __ipxApiPull=function __ipxCloud=true onNativeScanComplete=function
+
+================ 阶段1 · 测评设置（数据源/地区/端口/手填） ================
+  ✓ 阶段1 来源框填写后远程框同步（同一 API，不留双源）
+  ✓ 阶段1 数据源勾选就绪（srcBuiltin/srcCustom）
+  ✓ 阶段1 端口勾选 443+2087
+  ✓ 阶段1 地区勾选 4 已知（未勾未知）
+
+================ 阶段2 · 测评（onNativeScanResult × 40） ================
+  ✓ 阶段2 原生测速回调存在
+  ✓ A1 测速场次写入 cf_history 且 readResults 读回 40 条
+  ✓ A2 测速结果 ip 带端口（1:1 口径）
+  ○ SKIP: A3 __ipxCur > 0（首页列表认数据的前提） —— __ipxCur 是混淆脚本内部状态，探针不伪造；导出链路不依赖它（D 组已验证）
+
+================ 阶段3 · 拉取（ipxApiPull → doImportAll） ================
+  ✓ B0 ipxApiPull 进入后联动锁生效（__ipxAutoBusy/__ipxImportBusy）
+  ✓ B3 拉取防重入（进行中再调不发新请求）
+  ✓ B2 手动拉取增量 = 3 次（三网各一次；远程框已同步同源被 N1 去重跳过）
+  ✓ B4 拉取不触发上传（noUpload 恒定，GitHub 0 调用）
+  ✓ B1 三网快照写入（API 100 条全收 + 手填 2 条汇聚写回 = 102）
+  ✓ B5 完整拉取不截断（API 100 条全收，非只收 50）
+
+================ 阶段4 · 上传（uploadAll → GitHub） ================
+  ✓ C0 uploadAll 进入后 __ipxUpAllBusy=1（B2 锁生效）
+  ✓ C4 上传防重入（进行中再调不发新请求）
+  ✓ C1 GitHub PUT = 6 次（A 方案：三网各 txt + yaml）
+  ✓ C2 上传内容 == subContent（同源，逐字节一致）
+  ✓ C1b yaml PUT = 完整 Clash 配置（三段齐全，FLClash 可直接订阅）
+  ✓ C3 上传条数 = 导出条数（三网均 102）
+
+================ 阶段5 · 出结果（导出/排序/标注/口径） ================
+  ✓ D1 mergedNodes(1) = 102（40 实测 + 2 手填 + 60 API 独有）
+  ✓ D2 前 40 条是实测 IP 且带真实延迟（实测优先进坑）
+  ✓ D3 未实测节点显式标注（60 API + 2 手填 = 62）
+  ✓ D8 实测节点备注含真实延迟（40ms+）
+  ✓ D4 端口拼在 ip 字段（v4 不带端口后缀 + port 字段 2087/443；IPv6 合法带冒号）
+  ✓ D5 手填节点进导出（4.4.4.4:2087 + IPv6）
+  ✓ D7 三网内容互不相同（隔离）
+  ✓ D6 bento 总节点数 = 三网合并去重（222）且与 mergedNodes 同源
+  ✓ D9 ②段 API 列表标题总数 = 306（三网快照同口径）且正文有渲染
+
+================ 阶段6 · 边界场景 ================
+  ✓ E5a 导出层：colo 空节点进了 mergedNodes（用户未勾「未知」）
+  ✓ E4 同 IP 双端口是两个独立节点（443 + 2087）
+  ✓ E3 全空数据（无快照无实测）导出不炸
+
+================ 阶段7 · 自动汇聚（测完自动拉取，noUpload 恒定） ================
+  [诊断] __ipxScanHooked=1 钩子源码含ipxAutoGather=true __ipxAutoBusy=0 readResults=40
+  ✓ F1 测速完成触发自动汇聚（CM API 被再拉，增量 = 3 的倍数）
+  ✓ F2 自动汇聚不自动上传（GitHub 调用不增）
+  ✓ F3 自动汇聚无双拉（增量 = 3 的整数倍且 ≤ 6）
+
+================ 汇总 ================
+通过 34 / 失败 0 · 跳过 1
+
+fetch 调用明细（按 kind）:
+  cm-api: 9
+  gh-user: 1
+  gh-repo: 3
+  gh-contents: 6
+  gh-put: 6
+  ✔ probe_fullchain
+================ 场景1 · 首次启动（冷启动） ================
+  ✓ 启动无 jsdom 运行时错误
+  ✓ 自动汇聚开关缺省为开（缺省开，非显式关）
+  ✓ 主题缺省暗色（body.dark 或偏好缺省）
+  ✓ 冷启动不自动拉取（boot loadDef 不拉 API）
+  ✓ 冷启动不自动上传
+  ✓ 关键容器存在 #ipxBento
+  ✓ 关键容器存在 #ipxUxSourceRow
+  ✓ 关键容器存在 #ipxApiList
+  ✓ 关键容器存在 #remoteDataInput
+  ✓ 关键容器存在 #portSelectGrid
+  ✓ 关键容器存在 #regionList
+  ✓ 关键容器存在 #customInput
+  ✓ 关键容器存在 #ipxLatCard
+  ✓ __ipxExport 句柄就绪
+  ✓ 空数据导出不炸且为空
+  ✓ bento 空态有引导文案或四格（不白屏）
+  ✓ 全程无新增运行时错误
+
+================ 汇总 ================
+通过 17 / 失败 0 · 跳过 0
+fetch 明细: {}
+  ✔ probe_boot_fresh
+================ 场景2 · 重启恢复 ================
+  ✓ 重启启动无运行时错误
+  ✓ 快照 snap_1 原样恢复（12 条）
+  ✓ 老格式快照 snap_2 原样恢复（1 条缺 port）
+  ✓ 实测场次 cf_history 保留（种子会话是 id 最大）
+  ✓ 托管配置保留（gh 模式 + token）
+  ✓ 重启 boot 不自动拉取
+  ✓ 重启 boot 不自动上传（无 PUT）
+  ✓ 幽灵 key ipcheck_auto_gather_last 被清（B3）
+  ✓ 旧存档迁移进目录（API-1 = legacy URL）
+  ✓ 迁移后源档即删（ipcheck_src_saved 移除，防「删不掉复活」）
+  ✓ __ipxExport 句柄就绪
+  ✓ mergedNodes(1) = 12（8 实测 + 4 API 独有，去重不虚胖）
+  ✓ 实测优先进坑（前 8 条带真实延迟 30-65ms）
+  ✓ 老格式快照（缺 port）兼容导出不炸（net2 = 8 实测共享 + 1 老格式 = 9）
+  ✓ bento 总家底 = 三网合并去重（12 + 1 = 13）
+  ✓ 全程无新增运行时错误
+
+================ 汇总 ================
+通过 16 / 失败 0 · 跳过 0
+fetch 明细: {"gh-user":1}
+  ✔ probe_restart_recovery
+================ 场景3 · 断网 ================
+  ✓ __ipxExport 句柄就绪
+  ✓ 离线拉取不崩溃（不向上抛）
+  ✓ 离线拉取后锁最终释放（退避重试跑完即收，不永久卡死）
+  ✓ 离线拉取有失败反馈 toast（用户知道没拉成，不静默）
+  ✓ 离线拉取后快照仍健康（有效 JSON、原 IP 不丢）
+  ✓ 离线拉取不破坏实测场次
+  ✓ 离线上传不崩溃（不向上抛）
+  ✓ 离线上传后 __ipxUpAllBusy 释放
+  ✓ 离线上传无成功 PUT
+  ✓ 离线上传后快照仍健康（有效 JSON、原 IP 不丢）
+  ✓ 恢复网络后拉取立即可用（锁没被离线那次焊死）
+  ✓ 离线后本地数据完好（原 IP 仍在导出，恢复网络后只增不减）
+  ✓ 全程无未捕获运行时错误
+
+================ 汇总 ================
+通过 13 / 失败 0 · 跳过 0
+fetch 明细: {"gh-user":1,"cm-api":6,"gh-repo":3}
+  ✔ probe_offline
+================ 场景4 · 慢网 ================
+  ✓ 原生测速回调存在
+  ✓ 慢网下拉取+自动汇聚总请求 = 3 的倍数（无双拉）
+  ✓ 慢网下请求不爆炸（≤ 6 = 手动轮 + 至多一轮自动汇聚）
+  ✓ 慢网下快照无重复节点（按 ip:port 去重）
+  ✓ 慢网上传防重入（双格式一轮 = 6 PUT：3 txt + 3 yaml，连点不翻倍）
+  ✓ 慢网下 yaml PUT = 完整 Clash 配置（三段齐全）
+  ✓ 慢网结束后所有锁释放（auto/imp/upAll 均不卡死）
+  ✓ 全程无未捕获运行时错误
+
+================ 汇总 ================
+通过 8 / 失败 0 · 跳过 0
+fetch 明细: {"gh-user":1,"cm-api":3,"gh-repo":3,"gh-contents":6,"gh-put":6}
+  ✔ probe_slow_net
+================ 场景5 · 升级迁移 ================
+  ✓ 升级启动无运行时错误
+  ✓ 主题偏好保留（light 不被强制暗）
+  ✓ __ipxExport 句柄就绪
+  ✓ 混合形状快照导出不炸
+  ✓ 缺 port 老快照有兜底端口（不丢节点）
+  ✓ 实测与快照同 key 不重复（10.0.0.1 只出现一次）
+  ✓ 实测优先跨升级成立（10.0.0.1 带 42ms 真实延迟）
+  ✓ 残缺场次（缺 total/valid）readResults 不炸且读回 1 条
+  ✓ 幽灵 key 不影响导出条数（仍 4 条）
+  ✓ 目录名 ⚡⚡ 规范成单 ⚡（显示层统一补前缀）
+  ✓ 全程无新增运行时错误
+
+================ 汇总 ================
+通过 11 / 失败 0 · 跳过 0
+fetch 明细: {}
+  ✔ probe_migration
+================ 场景6 · 口径门禁（四出口交叉比对） ================
+  ✓ __ipxExport 句柄就绪
+  期望账本：每网 merged=18/18/18 合并去重=26 快照总和=30
+  ✓ 导出 mergedNodes 每网条数 = 期望账本（18/18/18）
+  ✓ 导出 subContent 行数 = mergedNodes 条数（每网自洽）
+  ✓ 概览 bento 总节点 = 三网合并去重（26）
+  ✓ ②段列表标题 = 三网快照总和（30，readSnap 语义）
+  ✓ 云端 PUT = 6 次（A 方案：三网各 txt + yaml）
+  ✓ 云端上传内容 = 导出内容（逐字节一致，N4 不复发）
+  ✓ yaml 节点数 == txt 行数（同源不两值）
+  ✓ IPv6 手填节点三网都在（2606:4700::1）
+  ✓ 全程无运行时错误
+
+================ 汇总 ================
+通过 10 / 失败 0 · 跳过 0
+fetch 明细: {"gh-user":1,"gh-repo":3,"gh-contents":6,"gh-put":6}
+  ✔ probe_caliber_gate
+
+======== [21:23:42] 3/8 全量回归（46 套件） ========
+  ✔ 46 套件回归全绿（47 个套件）
+
+======== [21:32:44] 4/8 UI/联动体检（85 项） ========
+
+== G. 布局三段式（2026-10-10 定稿） ==
+  ✓ ① 内置列表 · CF 官方 IP 库 段存在
+  ✓ ② 优选API 段存在
+  ✓ ③ 自定义数据 · 手填数据 段存在
+  ✓ ②段标题已去掉「CM 三网链接」（这不是 CM 专属）
+  ✓ 表头「使用方法」下拉已就位
+  ✓ 「抓取三网数据」按钮 DOM 保留但已隐藏（联动取代，铁律：隐藏不删除）
+  ✓ 源码无「CM 三网链接」残留
+
+== S. 来源行 API 菜单（多轮迭代） ==
+  ✓ 主菜单存在（按名称列条目）
+  ✓ 名称框 + 链接框均可编辑
+  ✓ 来源旁边独立 ⚡ 图标已清除（用户澄清：表达有误）
+  ✓ 「数据源预设」整行已隐藏
+  ✓ 旧远程URL行已隐藏（URL 编辑收敛到来源行）
+
+== S9. 旧存档迁移后源档即删（API-1 不能删 = 迁移复活） ==
+  ✓ 迁移后 ipcheck_src_saved 已删除（不会每轮复活）
+  ✓ 旧存档已迁进 ipcheck_api_catalog
+  ✓ 菜单条目名称统一带 ⚡ 前缀
+
+== S6~S8. 自定义 API 增 / 改名 / 删 ==
+  ✓ 💾 保存按钮存在
+  ✓ 💾 以自定义名称+链接保存
+  ✓ 菜单显示「⚡天诚优选」（⚡ 自动补）
+  ✓ 手打的 ⚡ 被剥掉（存档不存符号）
+  ✓ 存档里不含 ⚡/⭐（符号只由菜单显示层统一补）
+  ✓ 菜单不出现「⚡⚡」双叠
+  ✓ 用户操作后才自动拉取（💾 保存触发汇聚），不是进 App 就拉
+  ✓ 迁移来的 API-1 能删掉（删除按「选中项」精确定位）
+  ✓ 删除后不复活（源档已删，旧版本会原地长回来）
+
+== N. 联动自动汇聚（含「0 IP / 自动上传」两个老病根） ==
+  ✓ boot 清除遗留隐形上传开关 ipcheck_pull_upload
+  ✓ doImportAll 就绪
+  ✓ 最近一次汇聚是 noUpload=true（不触发上传）
+
+== N0. 回调劫持有效性（防「无失败输出」式假绿） ==
+  ✓ onNativeScanComplete 已挂载
+  ✓ 调用链路真的走到了我们包装的回调
+  ✓ 本轮测到 0 条 → 不自动汇聚（以前 0 IP 也跑一遍）
+  ✓ 有结果 → 测完自动汇聚一次
+  ✓ 自动汇聚传 noUpload=true（绝不自动上传云端）
+  ✓ 联动总开关 #ipxAutoGather 存在
+  ✓ 关掉联动总开关 → 测完不汇聚（退回手动）
+
+== H. 首页结果列表（延迟筛选 / 地区码断层） ==
+  ✓ __ipxUx.latCap 句柄就绪
+  ✓ #latencyDisplay 锚点存在
+  ✓ 延时筛选 ≤100ms 解析成功
+  ✓ ≤100ms 时结果被真正过滤（260ms 那条已被剔除）
+  ✓ 「不限」时不过滤（3 条全在）
+  ✓ 缺地区码的行显示「未知」占位（列不再断层）
+
+== H3. 地区筛选：点某地区只显示该地区结果（「全部都包含」病根） ==
+  ✓ 首页地区条已渲染（#regionSidebarList .region-tag）
+  ✓ 存在「华盛顿 / IAD」地区条（data-region=IAD）
+  ✓ 点地区前：19 条全在（6 IAD + 13 未知）
+  ✓ 点「华盛顿」后列表只剩该地区 6 条（未知行不再漏进来）
+  ✓ 面板里不再出现「未知」行（选定地区就该只看该地区）
+  ✓ 点「未知」→ 只剩 13 条无地区结果（显式选它才留）
+  ✓ 切回「全部」→ 19 条全回来
+
+== D. 「拉取的 API 数据」完整拉取（不再本地截断，2026-10-11 第三轮定稿） ==
+  ✓ 「各 N 条」输入框保留可见（选项先留着）
+  ✓ 源码里「按各 N 条本地截断」的实现已移除
+  ✓ 不吃 ips= 的静态订阅 → 原样完整收下（99 条，不再砍成 50）
+  ✓ fallbackUrl 真拉来源行里的自定义 host（不再强行回 cf.090227.xyz）
+  ✓ 同端点只拉一次（不重复请求）
+  ✓ 带 ips= 的 API：「各 N 条」仍改写参数（ips=999 → ips=50）
+  ✓ 不再把 URL 里的原始 ips=999 原样发出去
+
+== E. 导出订阅：按勾选联动 + 文案实时化 ==
+  ✓ __ipxExport.render 就绪
+  ✓ 未勾内置/手填 → 直接输出当前数据（API 快照）
+  ✓ 弹窗明说哪一路没勾（不再让人猜）
+  ✓ 勾了内置列表 → CFIP 参与导出
+  ✓ 优选API 行分网显示真实条数（不再拿第一网数字冒充「各N条」）
+  ✓ 旧文案「三网快照各 N 条」已清除
+  ✓ 过期文案「合并时按已选端口展开」已清除
+  ✓ 可见 UI 里没有「抓取三网/一键三网」旧按钮文案
+
+== O. 列表刷新节流 + 「理论值≠实际入队」口径交代 ==
+  ✓ 结果列表已加节流常量（测速期间不再每条结果全量重排）
+  ✓ force 刷新即时生效（切筛选不卡顿也不延迟）
+  ✓ ①段「📊 统计节点」按钮存在
+  ✓ 统计结果写明「会去重」（配置 7260 / 入队 7242 不再让人以为丢数据）
+
+== W. 口径闭环（图一/二/三 数字对账） ==
+  ✓ ②段「拉取的 API 数据」details 默认展开
+  ✓ 详情容器可见（不再被「空壳清理」设成 display:none —— 图三空白病根）
+  ✓ ②段详情里有拉取到的节点列表
+  ✓ ②段标题写分网明细（不用让人看不懂的「三网各一份」）
+  ✓ readSnap 过滤坏项（localStorage 31 条 → 30 条）
+  ✓ 概览「三网优选」与②段条数一致（30 / 20 / 10，不再各说各话）
+  ✓ sourceSplit.total == mergedNodes（无 ip 坏项不再多算 1 条）
+  ✓ 概览合计 = 三网订阅合计 75（不再用「三源混加」的假合计）
+  ✓ 延时筛选联动「地区分布」行（选 ≤100ms 时直接列出该范围内各地区条数）
+  ✓ 「不限」时分布行也在（覆盖全部地区）
+
+== X. 首页端口/IP类型 chip 与内置列表联动（2026-10-11 第五轮后） ==
+  ✓ 调试接口 __ipxHomeFilter 已暴露（首页筛选接管）
+  ✓ 默认未筛选：portDisplay 反映勾选端口（不含未勾 8880）
+  ✓ 默认未筛选：typeDisplay 反映「仅IPv4」
+  ✓ 下拉只列真实端口（无 8880）
+  ✓ 下拉含真实存在的 v4 / v6
+  ✓ 端口筛选：只留 443（6 IPv4 + 3 IPv6）
+  ✓ 类型筛选：只留 IPv4（15 条）
+  ✓ 端口 + 类型叠加筛选正确
+
+== Z. 运行时健康 ==
+  ✓ 无未捕获 JS 报错
+
+================ 85 通过 / 0 失败 ================
+  ✔ 体检器 85 项通过
+
+======== [21:33:04] 5/8 打包 M1 ========
+[改名] AndroidManifest label -> PrismTun
+对齐: ✓ zipalign 完成 (4 字节对齐)
+
+==================================================================
+M1 干净包构建
+==================================================================
+基线: D:\电报下载专用\IP测评_V1.4_kill\assets\SignatureKiller\origin.apk (16.37 MB, 907 条目)
+
+剔除:
+  - lib/x86/libgojni.so                       2.98 MB  (架构剔除)
+  - lib/x86_64/libgojni.so                    2.86 MB  (架构剔除)
+  - META-INF/CERT.SF                          0.02 MB  (旧签名)
+  - META-INF/CERT.RSA                         0.00 MB  (旧签名)
+  - META-INF/MANIFEST.MF                      0.02 MB  (旧签名)
+  小计节省: 5.89 MB
+
+替换:
+  ~ assets/index.html                      压缩前 104100 -> 1091588 字节
+  ~ assets/ips-v4.txt                      压缩前 7730 -> 93480 字节
+  ~ assets/ips-v6.txt                      压缩前 1637 -> 8872 字节
+  ~ res/BW.xml                             压缩前 58014 -> 6064 字节
+
+保留条目: 902
+输出: D:\WorkBuddy\test2\IP测评改造\build\PrismTun_v1.4_M1_unsigned.apk
+体积: 16.37 MB -> 10.68 MB (省 5.69 MB, 34.8%)
+
+自检:
+  CRC 校验: 通过
+  架构: ['arm64-v8a', 'armeabi-v7a']
+  签名文件: 已清空
+  启动器图标: 已替换 (PrismTun 棱镜)
+  resources.arsc: 未压缩 ✓ / 偏移 10132396 (4 字节对齐 ✓)
+  默认页: pageHome
+  导航项: 5
+  内置列表: v4 5956 行, v6 448 行
+
+结果: 通过
+  ✔ 打包通过
+
+======== [21:33:08] 6/8 签名 + v1/v2/v3 验证 ========
+java      : D:\WorkBuddy\test2\IP测评改造\.toolchain\jdk\jdk-17\bin\java.exe
+keytool   : D:\WorkBuddy\test2\IP测评改造\.toolchain\jdk\jdk-17\bin\keytool.exe
+apksigner : D:\WorkBuddy\test2\IP测评改造\.toolchain\bt\android-14\lib\apksigner.jar
+
+输入: D:\WorkBuddy\test2\IP测评改造\build\PrismTun_v1.4_M1_unsigned.apk (10.68 MB)
+复用已有 keystore: D:\WorkBuddy\test2\IP测评改造\.toolchain\ipcheck.keystore
+
+resources.arsc: 未压缩 ✓ / 偏移 10132396 (4 字节对齐 ✓)
+
+签名中（v1 + v2 + v3）...
+  $ D:\WorkBuddy\test2\IP测评改造\.toolchain\jdk\jdk-17\bin\java.exe -Xmx1024m -jar D:\WorkBuddy\test2\IP测评改造\.toolchain\bt\android-14\lib\apksigner.jar sign --ks ...
+
+输出: D:\WorkBuddy\test2\IP测评改造\build\PrismTun_v1.4_M1_signed.apk (10.75 MB)
+
+验证签名...
+  $ D:\WorkBuddy\test2\IP测评改造\.toolchain\jdk\jdk-17\bin\java.exe -jar D:\WorkBuddy\test2\IP测评改造\.toolchain\bt\android-14\lib\apksigner.jar verify --verbose --print-certs ...
+Verifies
+Verified using v1 scheme (JAR signing): true
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=IPCheck, OU=Dev, O=Dylan, C=CN
+Signer #1 certificate SHA-256 digest: 72c94cc716fc9dd1780fb4f0dbc215d57694a87a8a5dfeb276c3f331b985e903
+Signer #1 certificate SHA-1 digest: 1e00a1baa6757f387b0e0b4ad1bc4e1a9be8316a
+Signer #1 certificate MD5 digest: 41bcb5c70511d01c52e4762a9a422eef
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 2048
+Signer #1 public key SHA-256 digest: 37baef5d8580a09072deee8a5f1f19004a58e1b5653ac626b34441785dd9487e
+Signer #1 public key SHA-1 digest: fa844a3ca9973d3edb899d76a09aada527305381
+Signer #1 public key MD5 digest: 1315e38c5fd5aa99317f38d32f6a0fb9
+WARNING: META-INF/androidx.activity_activity.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.annotation_annotation-experimental.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.appcompat_appcompat-resources.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.appcompat_appcompat.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.arch.core_core-runtime.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.cardview_cardview.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.coordinatorlayout_coordinatorlayout.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.core_core-ktx.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.core_core.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.cursoradapter_cursoradapter.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.customview_customview.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.documentfile_documentfile.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.drawerlayout_drawerlayout.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.dynamicanimation_dynamicanimation.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.emoji2_emoji2-views-helper.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.emoji2_emoji2.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.fragment_fragment.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.interpolator_interpolator.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.legacy_legacy-support-core-utils.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-livedata-core.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-livedata.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-process.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-runtime.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.lifecycle_lifecycle-viewmodel.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.loader_loader.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.print_print.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.profileinstaller_profileinstaller.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.recyclerview_recyclerview.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.savedstate_savedstate.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.startup_startup-runtime.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.tracing_tracing.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.transition_transition.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.vectordrawable_vectordrawable-animated.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.vectordrawable_vectordrawable.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.versionedparcelable_versionedparcelable.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.viewpager2_viewpager2.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/androidx.viewpager_viewpager.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/com.google.android.material_material.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/com/android/build/gradle/app-metadata.properties not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/kotlinx_coroutines_android.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/kotlinx_coroutines_core.version not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+WARNING: META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
+
+验证对齐（签名后再次确认，apksigner 不应改变条目偏移）...
+  resources.arsc: 未压缩 ✓ / 偏移 10132396 (4 字节对齐 ✓)
+
+结果: 通过 ✓ 可安装
+  ✔ 签名并通过 apksigner 验证
+
+======== [21:33:14] 7/8 包内终验 ========
+================ 包内终验 ================
+  [OK] signed APK 存在且非空（PrismTun_v1.4_M1_signed.apk，10.75MB）
+  [OK] res/BW.xml 在包内（自适应图标 bin 进包）
+  [OK] resources.arsc 在包内
+  [OK] 签名文件单一（无旧签名残留，v1 一套） —— 实际 2
+  [OK] assets 页面资源在包内
+  [OK] 启动器标签 = PrismTun —— application-label:'PrismTun'
+  [OK] 包名 = com.check.ip.m —— package: name='com.check.ip.m' versionCode='2' versionName='
+  [OK] apksigner: Verifies
+  [OK] apksigner: v1  scheme
+  [OK] apksigner: v2 scheme
+  [OK] apksigner: v3 scheme
+
+================ 汇总 ================
+失败 0 项，全部通过
+  ✔ 包内终验通过
+
+======== [21:33:17] 8/8 门禁结论 ========
+✅ 全部门禁通过 —— 可以交付
+成品：/d/WorkBuddy/test2/IP测评改造/build/PrismTun_v1.4_M1_signed.apk
+完整质量档案：/d/WorkBuddy/test2/IP测评改造/build/release_gate_report.txt
