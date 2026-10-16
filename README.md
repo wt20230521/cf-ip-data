@@ -38,18 +38,22 @@ PrismTun 把一个 Clash/Clash.Meta 节点筛选工具，做成了**手机端一
 
 ```
 /
-├── README.md               # 本文件（项目总览）
-├── 改造实施清单.md          # 历轮改造任务记录
-├── release_gate_report.txt # 最近一次发布门禁报告（8 关全绿存档）
-├── cloudflare/             # 可选的自定义 API（Cloudflare Worker）源码
-│   ├── worker.js           #   订阅托管服务（KV 存储，token 保护上传）
-│   ├── wrangler.toml       #   命令行部署配置（面板部署可忽略）
-│   └── README.md           #   Worker 部署说明
-└── icon_src/               # App 图标设计资源
+├── README.md                     # 本文件（项目总览）
+├── 改造实施清单.md                # 历轮改造任务记录
+├── 真机冒烟卡.md                  # 真机验收步骤（装新包后必跑）
+├── PrismTun_v1.4_使用说明.txt     # 给最终用户的 App 使用说明
+├── release_gate_report.txt       # 最近一次发布门禁报告（8 关全绿存档）
+├── cloudflare/                   # 可选的自定义 API（Cloudflare Worker）源码
+│   ├── worker.js                 #   订阅托管服务（KV 存储，token 保护上传）
+│   ├── wrangler.toml             #   命令行部署配置（面板部署可忽略）
+│   └── README.md                 #   Worker 部署说明
+└── icon_src/                     # App 图标设计资源
     ├── res/drawable/prism_icon.xml   # 矢量图标源（克莱因蓝 L+ 进度弧）
     ├── AndroidManifest.xml           # adaptive-icon 声明参考
     ├── icon.flata                    # 图标资源包（构建中间产物）
     └── icon_out.apk                  # 图标打包产物（构建中间产物）
+
+（PrismTun/ 目录为 App 运行时自动上传订阅数据所创建，非手工维护。）
 ```
 
 ---
@@ -76,6 +80,8 @@ PrismTun 把一个 Clash/Clash.Meta 节点筛选工具，做成了**手机端一
 |---|---|---|
 | **README.md**（本文件） | 访客 / 部署者 | 项目总览、Worker 部署 |
 | `改造实施清单.md` | 维护者 | 历轮改造任务记录 |
+| `真机冒烟卡.md` | 每次装新包的人 | 真机验收 9 步 |
+| `PrismTun_v1.4_使用说明.txt` | 最终用户 | 安装、页面导览、FAQ |
 | `release_gate_report.txt` | 维护者 | 发布门禁质量档案样例 |
 
 ---
