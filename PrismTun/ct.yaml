@@ -11,688 +11,688 @@ proxies:
     type: vless
     server: "38.55.105.159"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | H​K​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 39.109.50.142:443 未实测"
     type: vless
     server: "39.109.50.142"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | H​K​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 43.175.131.30:443 未实测"
     type: vless
     server: "43.175.131.30"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | H​K​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 85.121.245.10:443 未实测"
     type: vless
     server: "85.121.245.10"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.193.150.127:443 未实测"
     type: vless
     server: "13.193.150.127"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 43.206.81.37:443 未实测"
     type: vless
     server: "43.206.81.37"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
     type: vless
     server: "45.76.207.88"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.192.206.218:443 未实测"
     type: vless
     server: "45.192.206.218"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 46.51.238.92:443 未实测"
     type: vless
     server: "46.51.238.92"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.64.43.229:443 未实测"
     type: vless
     server: "54.64.43.229"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.142.24:443 未实测"
     type: vless
     server: "108.160.142.24"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 139.180.196.14:443 未实测"
     type: vless
     server: "139.180.196.14"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 139.180.202.209:443 未实测"
     type: vless
     server: "139.180.202.209"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 154.31.115.104:8443 未实测"
     type: vless
     server: "154.31.115.104"
     port: 8443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 172.104.120.92:443 未实测"
     type: vless
     server: "172.104.120.92"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 202.182.96.10:443 未实测"
     type: vless
     server: "202.182.96.10"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.110.192:443 未实测"
     type: vless
     server: "207.148.110.192"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 3.38.190.222:443 未实测"
     type: vless
     server: "3.38.190.222"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.125.141.213:443 未实测"
     type: vless
     server: "13.125.141.213"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.79.49.235:443 未实测"
     type: vless
     server: "52.79.49.235"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 119.28.162.98:443 未实测"
     type: vless
     server: "119.28.162.98"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.36.254:443 未实测"
     type: vless
     server: "168.107.36.254"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.215.95.201:443 未实测"
     type: vless
     server: "13.215.95.201"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.215.195.63:443 未实测"
     type: vless
     server: "13.215.195.63"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.215.229.246:443 未实测"
     type: vless
     server: "13.215.229.246"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
     type: vless
     server: "13.251.248.21"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
     type: vless
     server: "18.136.135.61"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
     type: vless
     server: "18.136.144.144"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
     type: vless
     server: "47.131.186.184"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.74.57.233:443 未实测"
     type: vless
     server: "52.74.57.233"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
     type: vless
     server: "54.151.143.36"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 56.10.67.92:443 未实测"
     type: vless
     server: "56.10.67.92"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 159.65.141.109:443 未实测"
     type: vless
     server: "159.65.141.109"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 172.104.161.198:443 未实测"
     type: vless
     server: "172.104.161.198"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 172.236.139.181:443 未实测"
     type: vless
     server: "172.236.139.181"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 178.128.223.148:443 未实测"
     type: vless
     server: "178.128.223.148"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
     type: vless
     server: "156.154.245.83"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | U​S​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.165.201.20:443 未实测"
     type: vless
     server: "108.165.201.20"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "日本成田|268ms|78MB/s 未实测"
     type: vless
     server: "172.64.229.29"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国洛杉矶|161ms|35MB/s 未实测"
     type: vless
     server: "172.66.212.71"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国洛杉矶|163ms|35MB/s 未实测"
     type: vless
     server: "172.66.200.104"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国洛杉矶|162ms|35MB/s 未实测"
     type: vless
     server: "172.66.198.0"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国洛杉矶|162ms|34MB/s 未实测"
     type: vless
     server: "172.66.215.212"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国洛杉矶|162ms|34MB/s 未实测-2"
     type: vless
     server: "104.19.128.72"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国丹佛|213ms|30MB/s 未实测"
     type: vless
     server: "103.31.4.62"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国圣何塞|152ms|8MB/s 未实测"
     type: vless
     server: "172.64.79.179"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国圣何塞|142ms|7MB/s 未实测"
     type: vless
     server: "162.159.237.244"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国圣何塞|143ms|5MB/s 未实测"
     type: vless
     server: "162.159.237.204"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
   - name: "美国丹佛|221ms|6MB/s 未实测"
     type: vless
     server: "162.159.224.234"
     port: 443
-    uuid: "9fb412a1-22d3-486a-a009-c2ae961c580c"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "wt678.wen.gv.uy"
-    client-fingerprint: "random"
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=tw.william.us.ci"
+      path: "/proxyip=tw.william.us.ci:443"
       headers:
-        Host: "wt678.wen.gv.uy"
+        Host: "open.nmbot.de5.net"
 proxy-groups:
   - name: "🚀 节点选择"
     type: select
