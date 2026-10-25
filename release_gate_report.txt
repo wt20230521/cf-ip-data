@@ -1,7 +1,7 @@
-PrismTun 发布门禁 · 2026-10-18 18:47:17
+PrismTun 发布门禁 · 2026-10-25 10:32:24
 规则：任何一环失败 → 立即中止，禁止交付
 
-======== [18:47:18] 0/8 重建补丁链 ========
+======== [10:32:25] 0/8 重建补丁链 ========
 [pool] 池子在位，跳过（--restore-official 可强制回滚官方段）
   ✔ v4 候选池检查通过（官方段，详见上方 [pool] 输出）
 D:\WorkBuddy\test2\IP测评改造\tools\patch_cloud.py:176: SyntaxWarning: invalid escape sequence '\/'
@@ -118,21 +118,21 @@ Material Icons 字体离线化
 数据源卡人性化重组
 ==============================================================
   JS 语法自检              OK
-  注入「UI 重组」补丁                OK (103833 字符)
-  改造前: 850177 字符 → 改造后: 954011 字符
+  注入「UI 重组」补丁                OK (104104 字符)
+  改造前: 850177 字符 → 改造后: 954282 字符
 [run_all] patch_uiux 完成
 ==============================================================
 新手引导折叠卡补丁 (patch_guide)
 ==============================================================
   JS 语法自检              OK
   注入引导卡组件            OK (JS 9164 字符)
-  改造前: 954011 字符 → 改造后: 967170 字符
+  改造前: 954282 字符 → 改造后: 967441 字符
 [run_all] patch_guide 完成
 ==============================================================
 导出订阅弹窗重构
 ==============================================================
   注入导出弹窗补丁                   OK (JS 39854 字符)
-  改造前: 967170 字符 → 改造后: 1007209 字符
+  改造前: 967441 字符 → 改造后: 1007480 字符
 [run_all] patch_export 完成
 ==================================================
   __ipxMultiSrcPatch 注入（数据源统一入口）           OK
@@ -154,21 +154,22 @@ Material Icons 字体离线化
   OK: <h1><i class="material-icons">change_history</i>PrismTun</
   已是新版(跳过): <h1><i class="material-icons">change_history</i>
   OK: 导航标签 → PrismTun（保留 radar 图标）
+  OK: 测评设置 → 节点扩展 ×23（导航/标题/可见文案）
   [提示] 正文仍残留 1 处旧名（多为注释/内部标记，不影响显示）
-  替换 3 处，输出: D:\WorkBuddy\test2\IP测评改造\work\index.html
+  替换 4 处，输出: D:\WorkBuddy\test2\IP测评改造\work\index.html
 [run_all] patch_rename 完成
 ==============================================================
 Glass Panel 昼夜双主题注入
 ==============================================================
-  1. 注入双主题样式                     OK (17138 字符)
+  1. 注入双主题样式                     OK (18830 字符)
   2. 注入主题切换脚本                    OK
-  改造前: 1043878 字符 → 改造后: 1062216 字符
+  改造前: 1045418 字符 → 改造后: 1065448 字符
   输出  : D:\WorkBuddy\test2\IP测评改造\work\index.html
 [run_all] patch_theme 完成
 [run_all] 全部补丁应用完毕
   ✔ 补丁链重建通过
 
-======== [18:47:25] 1/8 补丁契约检查（20 个补丁的后置条件） ========
+======== [10:32:33] 1/8 补丁契约检查（20 个补丁的后置条件） ========
 ================ 补丁契约检查（20 个补丁） ================
 
 【patch_html】页面骨架：四页导航 + 远程框 + 基线死代码块已清
@@ -287,16 +288,14 @@ Glass Panel 昼夜双主题注入
   ✓ 含 «body.dark»
   ✓ 含 «body:not(.dark)»
 
-【patch_multisrc】②段数据源统一入口：一个列表管 选中/多源同拉/增删（下拉隐藏不删，➕💾🗑 转发既有实现）
+【patch_multisrc】②段数据源统一入口（2026-10-25 重做：勾选=多源同拉，行尾✕=删除；添加入口=「添加API」区[链接+备注]，转发 #ipxApiSave 保存链；顶部只留清空+⟳；来源行整行隐藏[DOM保留作保存链数据载体]）
   ✓ 含 «__ipxMultiSrcPatch»
   ✓ 含 «ipxMultiWrap»
   ✓ 含 «ipxMultiList»
   ✓ 含 «ipcheck_multi_src»
   ✓ 含 «ipxUxSourceMenu»
-  ✓ 含 «ipxMsAdd»
-  ✓ 含 «ipxMsSave»
-  ✓ 含 «ipxMsDel»
   ✓ 含 «readyOnly»
+  ✓ 含 «ipxMsAddBtn»
   ✓ 唯一 «__ipxMultiSrcPatch»
 
 【patch_cards】主页地区卡片：拉取数据源清单 -> 按国家分组 -> 选数量 -> 写进自定义数据
@@ -308,7 +307,7 @@ Glass Panel 昼夜双主题注入
   ✓ 含 «zip.cm.edu.kg»
   ✓ 唯一 «__ipxCardsPatch»
 
-【patch_compact】全局紧凑化：收紧留白/间距/字号，只动版式不改结构（可整体摘除回滚）
+【patch_compact】纯 CSS 紧凑化（间距/小字/卡片留白，不改结构）
   ✓ 含 «__ipxCompactPatch»
   ✓ 含 «ipxCompactCss»
   ✓ 含 «.ipx-net-row»
@@ -340,10 +339,10 @@ Glass Panel 昼夜双主题注入
   ✓ patch_uiux 有契约
 
 ================ 汇总 ================
-通过 125 / 失败 0 / 警告 1
+通过 123 / 失败 0 / 警告 1
   ✔ 契约检查通过
 
-======== [18:47:27] 2/8 链路探针矩阵（7 场景） ========
+======== [10:32:34] 2/8 链路探针矩阵（7 场景） ========
 句柄就绪: __ipxExport=true __ipxApiPull=function __ipxCloud=true onNativeScanComplete=function
 
 ================ 阶段1 · 测评设置（数据源/地区/端口/手填） ================
@@ -519,10 +518,10 @@ fetch 明细: {}
 fetch 明细: {"gh-user":1,"gh-repo":3,"gh-contents":6,"gh-put":6}
   ✔ probe_caliber_gate
 
-======== [18:50:01] 3/8 全量回归（46 套件） ========
+======== [10:35:10] 3/8 全量回归（46 套件） ========
   ✔ 46 套件回归全绿（49 个套件）
 
-======== [19:00:30] 4/8 UI/联动体检（97 项） ========
+======== [10:45:44] 4/8 UI/联动体检（99 项） ========
 
 == G. 布局三段式（2026-10-10 定稿） ==
   ✓ ① 内置列表 · CF 官方 IP 库 段存在
@@ -640,7 +639,9 @@ fetch 明细: {"gh-user":1,"gh-repo":3,"gh-contents":6,"gh-put":6}
 == ZZ. 数据源统一入口 + 手填只作测速输入（2026-10-18 定调）==
   ✓ ②段数据源列表 #ipxMultiWrap 存在
   ✓ 来源下拉已隐藏（不撞衫，DOM 保留）
-  ✓ ➕ / 💾 / 🗑 常用按钮在列表顶部（用户要求保留）
+  ✓ 顶部 ➕/💾/🗑 已移除（添加=「添加API」区，删除=行尾✕）
+  ✓ 「添加 API」区存在（链接 + 备注 + 大按钮）
+  ✓ 来源行整行隐藏（DOM 保留作 #ipxApiSave 保存链数据载体）
   ✓ 列表名称统一「⚡+名称」且不叠加
   ✓ 手填裸 ip:端口 被过滤掉（只喂测速）
   ✓ 成品分享链接保留直出
@@ -651,10 +652,10 @@ fetch 明细: {"gh-user":1,"gh-repo":3,"gh-contents":6,"gh-put":6}
   ✓ 地区卡片不在底部导航里
   ✓ 无未捕获 JS 报错
 
-================ 97 通过 / 0 失败 ================
-  ✔ 体检器 97 项通过
+================ 99 通过 / 0 失败 ================
+  ✔ 体检器 99 项通过
 
-======== [19:00:51] 5/8 打包 M1 ========
+======== [10:46:05] 5/8 打包 M1 ========
 [改名] manifest 无需改动（已是 PrismTun）
 对齐: ✓ zipalign 完成 (4 字节对齐)
 
@@ -667,7 +668,7 @@ M1 干净包构建
   小计节省: 0.00 MB
 
 替换:
-  ~ assets/index.html                      压缩前 104123 -> 1157064 字节
+  ~ assets/index.html                      压缩前 104123 -> 1160887 字节
   ~ assets/ips-v4.txt                      压缩前 12871 -> 93480 字节
   ~ assets/ips-v6.txt                      压缩前 913 -> 8872 字节
   ~ res/BW.xml                             压缩前 1290 -> 6064 字节
@@ -681,7 +682,7 @@ M1 干净包构建
   架构: ['arm64-v8a', 'armeabi-v7a']
   签名文件: 已清空
   启动器图标: 已替换 (PrismTun 棱镜)
-  resources.arsc: 未压缩 ✓ / 偏移 10135080 (4 字节对齐 ✓)
+  resources.arsc: 未压缩 ✓ / 偏移 10136128 (4 字节对齐 ✓)
   默认页: pageHome
   导航项: 6
   内置列表: v4 5956 行, v6 448 行
@@ -689,7 +690,7 @@ M1 干净包构建
 结果: 通过
   ✔ 打包通过
 
-======== [19:00:56] 6/8 签名 + v1/v2/v3 验证 ========
+======== [10:46:09] 6/8 签名 + v1/v2/v3 验证 ========
 java      : D:\WorkBuddy\test2\IP测评改造\.toolchain\jdk\jdk-17\bin\java.exe
 keytool   : D:\WorkBuddy\test2\IP测评改造\.toolchain\jdk\jdk-17\bin\keytool.exe
 apksigner : D:\WorkBuddy\test2\IP测评改造\.toolchain\bt\android-14\lib\apksigner.jar
@@ -697,7 +698,7 @@ apksigner : D:\WorkBuddy\test2\IP测评改造\.toolchain\bt\android-14\lib\apksi
 输入: D:\WorkBuddy\test2\IP测评改造\build\PrismTun_v1.4_M1_unsigned.apk (10.68 MB)
 复用已有 keystore: D:\WorkBuddy\test2\IP测评改造\.toolchain\ipcheck.keystore
 
-resources.arsc: 未压缩 ✓ / 偏移 10135080 (4 字节对齐 ✓)
+resources.arsc: 未压缩 ✓ / 偏移 10136128 (4 字节对齐 ✓)
 
 签名中（v1 + v2 + v3）...
   $ D:\WorkBuddy\test2\IP测评改造\.toolchain\jdk\jdk-17\bin\java.exe -Xmx1024m -jar D:\WorkBuddy\test2\IP测评改造\.toolchain\bt\android-14\lib\apksigner.jar sign --ks ...
@@ -770,12 +771,12 @@ WARNING: META-INF/services/kotlinx.coroutines.CoroutineExceptionHandler not prot
 WARNING: META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory not protected by signature. Unauthorized modifications to this JAR entry will not be detected. Delete or move the entry outside of META-INF/.
 
 验证对齐（签名后再次确认，apksigner 不应改变条目偏移）...
-  resources.arsc: 未压缩 ✓ / 偏移 10135080 (4 字节对齐 ✓)
+  resources.arsc: 未压缩 ✓ / 偏移 10136128 (4 字节对齐 ✓)
 
 结果: 通过 ✓ 可安装
   ✔ 签名并通过 apksigner 验证
 
-======== [19:01:02] 7/8 包内终验 ========
+======== [10:46:15] 7/8 包内终验 ========
 ================ 包内终验 ================
   [OK] signed APK 存在且非空（PrismTun_v1.4_M1_signed.apk，10.76MB）
   [OK] res/BW.xml 在包内（自适应图标 bin 进包）
@@ -793,7 +794,7 @@ WARNING: META-INF/services/kotlinx.coroutines.internal.MainDispatcherFactory not
 失败 0 项，全部通过
   ✔ 包内终验通过
 
-======== [19:01:06] 8/8 门禁结论 ========
+======== [10:46:18] 8/8 门禁结论 ========
 ✅ 全部门禁通过 —— 可以交付
 成品：/d/WorkBuddy/test2/IP测评改造/build/PrismTun_v1.4_M1_signed.apk
 完整质量档案：/d/WorkBuddy/test2/IP测评改造/build/release_gate_report.txt
