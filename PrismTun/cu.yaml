@@ -1,12 +1,502 @@
 # PrismTun 订阅 · Clash 配置（联通）
 # 由 PrismTun 自动生成（A 方案双格式 · Clash YAML）
-# 共 126 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
+# 共 95 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
 # 规则为最小内联集（不依赖 geo 文件），可按需在客户端内扩展
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 proxies:
+  - name: "日本成田|250ms|77MB/s 未实测"
+    type: vless
+    server: "172.64.229.130"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国圣何塞|139ms|36MB/s 未实测"
+    type: vless
+    server: "162.159.237.144"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国洛杉矶|158ms|35MB/s 未实测"
+    type: vless
+    server: "104.16.188.10"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国洛杉矶|158ms|35MB/s 未实测-2"
+    type: vless
+    server: "104.19.88.203"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国洛杉矶|158ms|35MB/s 未实测-3"
+    type: vless
+    server: "162.159.84.10"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国洛杉矶|158ms|35MB/s 未实测-4"
+    type: vless
+    server: "104.19.159.82"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国洛杉矶|158ms|35MB/s 未实测-5"
+    type: vless
+    server: "104.16.152.55"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国圣何塞|139ms|33MB/s 未实测"
+    type: vless
+    server: "162.159.237.226"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国圣何塞|138ms|8MB/s 未实测"
+    type: vless
+    server: "162.159.237.244"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国圣何塞|135ms|8MB/s 未实测"
+    type: vless
+    server: "172.64.79.223"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国圣何塞|141ms|1MB/s 未实测"
+    type: vless
+    server: "162.159.237.79"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国丹佛|212ms|0MB/s 未实测"
+    type: vless
+    server: "103.31.4.62"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "美国丹佛|213ms|0MB/s 未实测"
+    type: vless
+    server: "162.159.224.234"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
+    type: vless
+    server: "20.27.0.121"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
+    type: vless
+    server: "20.210.47.12"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
+    type: vless
+    server: "45.32.54.55"
+    port: 8443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.202.150:443 未实测"
+    type: vless
+    server: "45.76.202.150"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
+    type: vless
+    server: "45.76.207.88"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.138.38:443 未实测"
+    type: vless
+    server: "108.160.138.38"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 132.243.30.210:443 未实测"
+    type: vless
+    server: "132.243.30.210"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 149.28.26.137:443 未实测"
+    type: vless
+    server: "149.28.26.137"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.90.139:443 未实测"
+    type: vless
+    server: "207.148.90.139"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
+    type: vless
+    server: "207.148.114.119"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
+    type: vless
+    server: "138.2.127.8"
+    port: 8443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
+    type: vless
+    server: "168.107.62.215"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
+    type: vless
+    server: "4.193.222.166"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.250.17.35:443 未实测"
+    type: vless
+    server: "13.250.17.35"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
+    type: vless
+    server: "13.251.248.21"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
+    type: vless
+    server: "18.136.135.61"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
+    type: vless
+    server: "18.136.144.144"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
+    type: vless
+    server: "47.131.186.184"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
+    type: vless
+    server: "52.187.43.17"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
+    type: vless
+    server: "54.151.143.36"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
+    type: vless
+    server: "161.117.181.127"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
+  - name: "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
+    type: vless
+    server: "156.154.245.83"
+    port: 443
+    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    udp: true
+    tls: true
+    servername: "sur.936.us.ci"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      headers:
+        Host: "sur.936.us.ci"
   - name: "1-中国香港 未实测"
     type: vless
     server: "43.251.226.55"
@@ -847,930 +1337,6 @@ proxies:
       path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
       headers:
         Host: "sur.936.us.ci"
-  - name: "日本成田|250ms|77MB/s 未实测"
-    type: vless
-    server: "172.64.229.130"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|139ms|36MB/s 未实测"
-    type: vless
-    server: "162.159.237.144"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测"
-    type: vless
-    server: "104.16.188.10"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-2"
-    type: vless
-    server: "104.19.88.203"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-3"
-    type: vless
-    server: "162.159.84.10"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-4"
-    type: vless
-    server: "104.19.159.82"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-5"
-    type: vless
-    server: "104.16.152.55"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|139ms|33MB/s 未实测"
-    type: vless
-    server: "162.159.237.226"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|138ms|8MB/s 未实测"
-    type: vless
-    server: "162.159.237.244"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|135ms|8MB/s 未实测"
-    type: vless
-    server: "172.64.79.223"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|141ms|1MB/s 未实测"
-    type: vless
-    server: "162.159.237.79"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国丹佛|212ms|0MB/s 未实测"
-    type: vless
-    server: "103.31.4.62"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国丹佛|213ms|0MB/s 未实测"
-    type: vless
-    server: "162.159.224.234"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | 10-25 15:08 | BestCF.pages.dev 未实测"
-    type: vless
-    server: "20.27.0.121"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
-    type: vless
-    server: "20.210.47.12"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 43.224.33.225:8443 未实测"
-    type: vless
-    server: "43.224.33.225"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.77.11.68:443 未实测"
-    type: vless
-    server: "45.77.11.68"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 104.238.148.149:443 未实测"
-    type: vless
-    server: "104.238.148.149"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 198.13.47.32:443 未实测"
-    type: vless
-    server: "198.13.47.32"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 198.13.49.93:443 未实测"
-    type: vless
-    server: "198.13.49.93"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 198.13.60.163:443 未实测"
-    type: vless
-    server: "198.13.60.163"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.110.192:443 未实测"
-    type: vless
-    server: "207.148.110.192"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
-    type: vless
-    server: "207.148.114.119"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.115.152:443 未实测"
-    type: vless
-    server: "207.148.115.152"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
-    type: vless
-    server: "138.2.127.8"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
-    type: vless
-    server: "168.107.62.215"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
-    type: vless
-    server: "4.193.222.166"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
-    type: vless
-    server: "18.136.144.144"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
-    type: vless
-    server: "52.187.43.17"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
-    type: vless
-    server: "161.117.181.127"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
-    type: vless
-    server: "156.154.245.83"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "HK1-Tencent by醋 未实测"
-    type: vless
-    server: "43.159.12.36"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "HK2-ACE by醋 未实测"
-    type: vless
-    server: "43.175.131.30"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "HK3-Prime by醋 未实测"
-    type: vless
-    server: "23.249.18.144"
-    port: 8581
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "HK4-Google by醋 未实测"
-    type: vless
-    server: "35.215.137.224"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "HK5-LUCIDACLOUD by醋 未实测"
-    type: vless
-    server: "193.134.211.85"
-    port: 6400
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "HK6-AkileCloud by醋 未实测"
-    type: vless
-    server: "185.155.235.35"
-    port: 40649
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "HK7-BAGE by醋 未实测"
-    type: vless
-    server: "209.33.167.234"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "SG1-Tencent by醋 未实测"
-    type: vless
-    server: "43.159.4.80"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "SG2-AkileCloud by醋 未实测"
-    type: vless
-    server: "103.255.208.163"
-    port: 35993
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "SG3-XNNET by醋 未实测"
-    type: vless
-    server: "38.207.132.249"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "SG4-Tencent by醋 未实测"
-    type: vless
-    server: "43.160.240.180"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "SG5-Prime by醋 未实测"
-    type: vless
-    server: "23.249.27.136"
-    port: 23333
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "SG6-Akari by醋 未实测"
-    type: vless
-    server: "103.190.178.195"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "SG7-DATAWAVE by醋 未实测"
-    type: vless
-    server: "82.109.96.205"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "JP1-Prime by醋 未实测"
-    type: vless
-    server: "82.40.33.36"
-    port: 21133
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "JP2-Prime by醋 未实测"
-    type: vless
-    server: "177.5.52.32"
-    port: 40004
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "JP3-ZOUTER by醋 未实测"
-    type: vless
-    server: "216.23.122.8"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "JP4-DMIT by醋 未实测"
-    type: vless
-    server: "154.31.115.163"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "JP5-DMIT by醋 未实测"
-    type: vless
-    server: "154.31.114.46"
-    port: 12632
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "JP6-Prime by醋 未实测"
-    type: vless
-    server: "198.176.52.216"
-    port: 27001
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "JP7-Prime by醋 未实测"
-    type: vless
-    server: "23.249.25.142"
-    port: 21074
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "US1-ACE by醋 未实测"
-    type: vless
-    server: "43.169.18.179"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "US2-ACE by醋 未实测"
-    type: vless
-    server: "43.174.218.1"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "US3-ZOUTER by醋 未实测"
-    type: vless
-    server: "216.23.123.64"
-    port: 30718
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "US4-ZOUTER by醋 未实测"
-    type: vless
-    server: "216.23.123.211"
-    port: 30718
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "US5-Alibaba by醋 未实测"
-    type: vless
-    server: "47.75.104.211"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "US6-Alibaba by醋 未实测"
-    type: vless
-    server: "47.75.104.254"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "US7-DMIT by醋 未实测"
-    type: vless
-    server: "64.186.230.222"
-    port: 18278
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "DE1-xTom by醋 未实测"
-    type: vless
-    server: "45.147.49.149"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "DE2-Eons by醋 未实测"
-    type: vless
-    server: "64.118.159.219"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "DE3-Kirino by醋 未实测"
-    type: vless
-    server: "185.217.108.229"
-    port: 23351
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "DE4-NetLab by醋 未实测"
-    type: vless
-    server: "189.24.106.196"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "DE5-xTom by醋 未实测"
-    type: vless
-    server: "194.169.54.223"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "DE6-xTom by醋 未实测"
-    type: vless
-    server: "194.169.54.16"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "DE7-Kirino by醋 未实测"
-    type: vless
-    server: "31.25.88.21"
-    port: 14239
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
 proxy-groups:
   - name: "🚀 节点选择"
     type: select
@@ -1778,6 +1344,41 @@ proxy-groups:
       - "♻️ 自动选择"
       - "🔯 故障转移"
       - DIRECT
+      - "日本成田|250ms|77MB/s 未实测"
+      - "美国圣何塞|139ms|36MB/s 未实测"
+      - "美国洛杉矶|158ms|35MB/s 未实测"
+      - "美国洛杉矶|158ms|35MB/s 未实测-2"
+      - "美国洛杉矶|158ms|35MB/s 未实测-3"
+      - "美国洛杉矶|158ms|35MB/s 未实测-4"
+      - "美国洛杉矶|158ms|35MB/s 未实测-5"
+      - "美国圣何塞|139ms|33MB/s 未实测"
+      - "美国圣何塞|138ms|8MB/s 未实测"
+      - "美国圣何塞|135ms|8MB/s 未实测"
+      - "美国圣何塞|141ms|1MB/s 未实测"
+      - "美国丹佛|212ms|0MB/s 未实测"
+      - "美国丹佛|213ms|0MB/s 未实测"
+      - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.202.150:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.138.38:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 132.243.30.210:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 149.28.26.137:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.90.139:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
+      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
+      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.250.17.35:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
+      - "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
       - "1-中国香港 未实测"
       - "2-中国香港 未实测"
       - "3-中国香港 未实测"
@@ -1838,6 +1439,14 @@ proxy-groups:
       - "58-韩国 未实测"
       - "59-韩国 未实测"
       - "60-韩国 未实测"
+  - name: "♻️ 自动选择"
+    type: url-test
+    url: "http://www.gstatic.com/generate_204"
+    interval: 300
+    tolerance: 50
+    expected-status: "204"
+    lazy: true
+    proxies:
       - "日本成田|250ms|77MB/s 未实测"
       - "美国圣何塞|139ms|36MB/s 未实测"
       - "美国洛杉矶|158ms|35MB/s 未实测"
@@ -1851,97 +1460,23 @@ proxy-groups:
       - "美国圣何塞|141ms|1MB/s 未实测"
       - "美国丹佛|212ms|0MB/s 未实测"
       - "美国丹佛|213ms|0MB/s 未实测"
-      - "Mia优选 | 10-25 15:08 | BestCF.pages.dev 未实测"
+      - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 43.224.33.225:8443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.77.11.68:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 104.238.148.149:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 198.13.47.32:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 198.13.49.93:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 198.13.60.163:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.110.192:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.202.150:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.138.38:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 132.243.30.210:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 149.28.26.137:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.90.139:443 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.115.152:443 未实测"
       - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
       - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.250.17.35:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
-      - "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
-      - "HK1-Tencent by醋 未实测"
-      - "HK2-ACE by醋 未实测"
-      - "HK3-Prime by醋 未实测"
-      - "HK4-Google by醋 未实测"
-      - "HK5-LUCIDACLOUD by醋 未实测"
-      - "HK6-AkileCloud by醋 未实测"
-      - "HK7-BAGE by醋 未实测"
-      - "SG1-Tencent by醋 未实测"
-      - "SG2-AkileCloud by醋 未实测"
-      - "SG3-XNNET by醋 未实测"
-      - "SG4-Tencent by醋 未实测"
-      - "SG5-Prime by醋 未实测"
-      - "SG6-Akari by醋 未实测"
-      - "SG7-DATAWAVE by醋 未实测"
-      - "JP1-Prime by醋 未实测"
-      - "JP2-Prime by醋 未实测"
-      - "JP3-ZOUTER by醋 未实测"
-      - "JP4-DMIT by醋 未实测"
-      - "JP5-DMIT by醋 未实测"
-      - "JP6-Prime by醋 未实测"
-      - "JP7-Prime by醋 未实测"
-      - "US1-ACE by醋 未实测"
-      - "US2-ACE by醋 未实测"
-      - "US3-ZOUTER by醋 未实测"
-      - "US4-ZOUTER by醋 未实测"
-      - "US5-Alibaba by醋 未实测"
-      - "US6-Alibaba by醋 未实测"
-      - "US7-DMIT by醋 未实测"
-      - "DE1-xTom by醋 未实测"
-      - "DE2-Eons by醋 未实测"
-      - "DE3-Kirino by醋 未实测"
-      - "DE4-NetLab by醋 未实测"
-      - "DE5-xTom by醋 未实测"
-      - "DE6-xTom by醋 未实测"
-      - "DE7-Kirino by醋 未实测"
-  - name: "♻️ 自动选择"
-    type: url-test
-    url: "http://www.gstatic.com/generate_204"
-    interval: 300
-    tolerance: 50
-    expected-status: "204"
-    lazy: true
-    proxies:
-      - "1-中国香港 未实测"
-      - "2-中国香港 未实测"
-      - "3-中国香港 未实测"
-      - "4-中国香港 未实测"
-      - "5-中国香港 未实测"
-      - "6-中国香港 未实测"
-      - "7-中国香港 未实测"
-      - "8-中国香港 未实测"
-      - "9-中国香港 未实测"
-      - "10-中国香港 未实测"
-      - "11-日本 未实测"
-      - "12-日本 未实测"
-      - "13-日本 未实测"
-      - "14-日本 未实测"
-      - "15-日本 未实测"
-      - "16-日本 未实测"
-      - "17-日本 未实测"
-      - "18-日本 未实测"
-      - "19-日本 未实测"
-      - "20-日本 未实测"
-      - "21-新加坡 未实测"
-      - "22-新加坡 未实测"
-      - "23-新加坡 未实测"
-      - "24-新加坡 未实测"
-      - "25-新加坡 未实测"
-      - "26-新加坡 未实测"
-      - "27-新加坡 未实测"
-      - "28-新加坡 未实测"
-      - "29-新加坡 未实测"
-      - "30-新加坡 未实测"
   - name: "🔯 故障转移"
     type: fallback
     url: "http://www.gstatic.com/generate_204"
@@ -1949,36 +1484,36 @@ proxy-groups:
     expected-status: "204"
     lazy: true
     proxies:
-      - "1-中国香港 未实测"
-      - "2-中国香港 未实测"
-      - "3-中国香港 未实测"
-      - "4-中国香港 未实测"
-      - "5-中国香港 未实测"
-      - "6-中国香港 未实测"
-      - "7-中国香港 未实测"
-      - "8-中国香港 未实测"
-      - "9-中国香港 未实测"
-      - "10-中国香港 未实测"
-      - "11-日本 未实测"
-      - "12-日本 未实测"
-      - "13-日本 未实测"
-      - "14-日本 未实测"
-      - "15-日本 未实测"
-      - "16-日本 未实测"
-      - "17-日本 未实测"
-      - "18-日本 未实测"
-      - "19-日本 未实测"
-      - "20-日本 未实测"
-      - "21-新加坡 未实测"
-      - "22-新加坡 未实测"
-      - "23-新加坡 未实测"
-      - "24-新加坡 未实测"
-      - "25-新加坡 未实测"
-      - "26-新加坡 未实测"
-      - "27-新加坡 未实测"
-      - "28-新加坡 未实测"
-      - "29-新加坡 未实测"
-      - "30-新加坡 未实测"
+      - "日本成田|250ms|77MB/s 未实测"
+      - "美国圣何塞|139ms|36MB/s 未实测"
+      - "美国洛杉矶|158ms|35MB/s 未实测"
+      - "美国洛杉矶|158ms|35MB/s 未实测-2"
+      - "美国洛杉矶|158ms|35MB/s 未实测-3"
+      - "美国洛杉矶|158ms|35MB/s 未实测-4"
+      - "美国洛杉矶|158ms|35MB/s 未实测-5"
+      - "美国圣何塞|139ms|33MB/s 未实测"
+      - "美国圣何塞|138ms|8MB/s 未实测"
+      - "美国圣何塞|135ms|8MB/s 未实测"
+      - "美国圣何塞|141ms|1MB/s 未实测"
+      - "美国丹佛|212ms|0MB/s 未实测"
+      - "美国丹佛|213ms|0MB/s 未实测"
+      - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.202.150:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.138.38:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 132.243.30.210:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 149.28.26.137:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.90.139:443 未实测"
+      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
+      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
+      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.250.17.35:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
 rules:
   - "DOMAIN-SUFFIX,local,DIRECT"
   - "DOMAIN-SUFFIX,localhost,DIRECT"
