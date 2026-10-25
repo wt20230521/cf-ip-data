@@ -1,15 +1,85 @@
 # PrismTun 订阅 · Clash 配置（电信）
 # 由 PrismTun 自动生成（A 方案双格式 · Clash YAML）
-# 共 80 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
+# 共 155 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
 # 规则为最小内联集（不依赖 geo 文件），可按需在客户端内扩展
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: "US [优选高速 158.49ms 8.3Mbps] 未实测"
+  - name: "🇺🇸 美国 82.29.128.19:2053 未实测"
     type: vless
-    server: "179.255.146.221"
+    server: "82.29.128.19"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇺🇸 美国 159.195.233.192:443 未实测"
+    type: vless
+    server: "159.195.233.192"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇺🇸 美国 15.204.80.151:443 未实测"
+    type: vless
+    server: "15.204.80.151"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇺🇸 美国 154.9.243.154:443 未实测"
+    type: vless
+    server: "154.9.243.154"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇺🇸 美国 104.252.77.72:443 未实测"
+    type: vless
+    server: "104.252.77.72"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇺🇸 美国 152.53.89.13:8443 未实测"
+    type: vless
+    server: "152.53.89.13"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -21,9 +91,9 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US [优选高速 158.51ms 8.55Mbps] 未实测"
+  - name: "🇺🇸 美国 154.9.227.100:443 未实测"
     type: vless
-    server: "179.253.247.190"
+    server: "154.9.227.100"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -35,9 +105,9 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US [优选高速 159.99ms 8.71Mbps] 未实测"
+  - name: "🇺🇸 美国 117.55.227.224:443 未实测"
     type: vless
-    server: "179.255.141.74"
+    server: "117.55.227.224"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -49,9 +119,9 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US [优选高速 160.4ms 8.37Mbps] 未实测"
+  - name: "🇺🇸 美国 147.224.244.150:443 未实测"
     type: vless
-    server: "179.255.103.187"
+    server: "147.224.244.150"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -63,9 +133,9 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US [优选高速 161.48ms 8.72Mbps] 未实测"
+  - name: "🇺🇸 美国 149.28.92.56:443 未实测"
     type: vless
-    server: "179.255.148.2"
+    server: "149.28.92.56"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -77,9 +147,9 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US [优选高速 162.15ms 8.54Mbps] 未实测"
+  - name: "🇺🇸 美国 150.136.236.251:443 未实测"
     type: vless
-    server: "144.225.255.195"
+    server: "150.136.236.251"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -91,9 +161,37 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "AE [优选高速 170.05ms 9.14Mbps] 未实测"
+  - name: "🇺🇸 美国 154.41.80.155:8443 未实测"
     type: vless
-    server: "91.132.93.153"
+    server: "154.41.80.155"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇺🇸 美国 154.50.110.125:8443 未实测"
+    type: vless
+    server: "154.50.110.125"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇺🇸 美国 104.168.56.73:443 未实测"
+    type: vless
+    server: "104.168.56.73"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -105,9 +203,849 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "NL [优选高速 176.94ms 9.35Mbps] 未实测"
+  - name: "🇺🇸 美国 141.98.41.73:443 未实测"
     type: vless
-    server: "89.106.207.235"
+    server: "141.98.41.73"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 45.66.216.47:443 未实测"
+    type: vless
+    server: "45.66.216.47"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 140.245.84.30:8443 未实测"
+    type: vless
+    server: "140.245.84.30"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 139.180.202.209:443 未实测"
+    type: vless
+    server: "139.180.202.209"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 131.186.58.223:8443 未实测"
+    type: vless
+    server: "131.186.58.223"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 13.192.5.38:443 未实测"
+    type: vless
+    server: "13.192.5.38"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 132.226.8.35:8443 未实测"
+    type: vless
+    server: "132.226.8.35"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 129.225.147.112:443 未实测"
+    type: vless
+    server: "129.225.147.112"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 108.160.136.71:443 未实测"
+    type: vless
+    server: "108.160.136.71"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 108.61.163.117:443 未实测"
+    type: vless
+    server: "108.61.163.117"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 141.147.183.179:8443 未实测"
+    type: vless
+    server: "141.147.183.179"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 13.230.191.90:443 未实测"
+    type: vless
+    server: "13.230.191.90"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 104.156.239.15:443 未实测"
+    type: vless
+    server: "104.156.239.15"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 103.173.179.184:443 未实测"
+    type: vless
+    server: "103.173.179.184"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 13.115.210.166:443 未实测"
+    type: vless
+    server: "13.115.210.166"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇯🇵 日本 138.2.11.127:8443 未实测"
+    type: vless
+    server: "138.2.11.127"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 172.104.47.210:443 未实测"
+    type: vless
+    server: "172.104.47.210"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 43.156.142.191:443 未实测"
+    type: vless
+    server: "43.156.142.191"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 45.77.33.228:443 未实测"
+    type: vless
+    server: "45.77.33.228"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 129.150.49.34:443 未实测"
+    type: vless
+    server: "129.150.49.34"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 140.245.107.0:8443 未实测"
+    type: vless
+    server: "140.245.107.0"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 43.156.39.15:443 未实测"
+    type: vless
+    server: "43.156.39.15"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 172.104.166.253:443 未实测"
+    type: vless
+    server: "172.104.166.253"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 149.118.48.187:443 未实测"
+    type: vless
+    server: "149.118.48.187"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 156.244.57.227:443 未实测"
+    type: vless
+    server: "156.244.57.227"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 178.128.20.158:443 未实测"
+    type: vless
+    server: "178.128.20.158"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 84.32.22.205:443 未实测"
+    type: vless
+    server: "84.32.22.205"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 103.167.151.85:8443 未实测"
+    type: vless
+    server: "103.167.151.85"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 43.163.91.6:443 未实测"
+    type: vless
+    server: "43.163.91.6"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 157.228.130.240:443 未实测"
+    type: vless
+    server: "157.228.130.240"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇸🇬 新加坡 3.1.187.169:443 未实测"
+    type: vless
+    server: "3.1.187.169"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 103.139.1.241:443 未实测"
+    type: vless
+    server: "103.139.1.241"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 83.147.60.79:443 未实测"
+    type: vless
+    server: "83.147.60.79"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 103.135.250.82:443 未实测"
+    type: vless
+    server: "103.135.250.82"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 151.242.125.102:443 未实测"
+    type: vless
+    server: "151.242.125.102"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 209.33.166.102:443 未实测"
+    type: vless
+    server: "209.33.166.102"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 103.229.54.103:443 未实测"
+    type: vless
+    server: "103.229.54.103"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 149.104.29.237:443 未实测"
+    type: vless
+    server: "149.104.29.237"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 166.88.141.31:443 未实测"
+    type: vless
+    server: "166.88.141.31"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 95.182.95.41:443 未实测"
+    type: vless
+    server: "95.182.95.41"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 82.27.116.181:443 未实测"
+    type: vless
+    server: "82.27.116.181"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 45.207.156.69:8443 未实测"
+    type: vless
+    server: "45.207.156.69"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 111.92.240.90:8443 未实测"
+    type: vless
+    server: "111.92.240.90"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 103.97.200.42:443 未实测"
+    type: vless
+    server: "103.97.200.42"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 149.104.6.15:443 未实测"
+    type: vless
+    server: "149.104.6.15"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇭🇰 香港 103.115.64.158:443 未实测"
+    type: vless
+    server: "103.115.64.158"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 152.70.239.74:443 未实测"
+    type: vless
+    server: "152.70.239.74"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 168.107.36.254:443 未实测"
+    type: vless
+    server: "168.107.36.254"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 119.205.235.58:443 未实测"
+    type: vless
+    server: "119.205.235.58"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 3.37.58.69:443 未实测"
+    type: vless
+    server: "3.37.58.69"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 152.67.198.36:443 未实测"
+    type: vless
+    server: "152.67.198.36"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 130.94.29.155:443 未实测"
+    type: vless
+    server: "130.94.29.155"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 13.125.9.223:443 未实测"
+    type: vless
+    server: "13.125.9.223"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 158.247.253.111:8443 未实测"
+    type: vless
+    server: "158.247.253.111"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 43.164.139.71:443 未实测"
+    type: vless
+    server: "43.164.139.71"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 43.164.132.109:443 未实测"
+    type: vless
+    server: "43.164.132.109"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 132.145.91.135:443 未实测"
+    type: vless
+    server: "132.145.91.135"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 64.110.79.66:8443 未实测"
+    type: vless
+    server: "64.110.79.66"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 123.111.169.70:2053 未实测"
+    type: vless
+    server: "123.111.169.70"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 123.111.169.70:8443 未实测"
+    type: vless
+    server: "123.111.169.70"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "🇰🇷 韩国 101.33.68.172:443 未实测"
+    type: vless
+    server: "101.33.68.172"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -1127,6 +2065,118 @@ proxies:
       path: "/proxyip=61.124.15.191:443"
       headers:
         Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 158.49ms 8.3Mbps] 未实测"
+    type: vless
+    server: "179.255.146.221"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 158.51ms 8.55Mbps] 未实测"
+    type: vless
+    server: "179.253.247.190"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 159.99ms 8.71Mbps] 未实测"
+    type: vless
+    server: "179.255.141.74"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 160.4ms 8.37Mbps] 未实测"
+    type: vless
+    server: "179.255.103.187"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 161.48ms 8.72Mbps] 未实测"
+    type: vless
+    server: "179.255.148.2"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 162.15ms 8.54Mbps] 未实测"
+    type: vless
+    server: "144.225.255.195"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "AE [优选高速 170.05ms 9.14Mbps] 未实测"
+    type: vless
+    server: "91.132.93.153"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "NL [优选高速 176.94ms 9.35Mbps] 未实测"
+    type: vless
+    server: "89.106.207.235"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
 proxy-groups:
   - name: "🚀 节点选择"
     type: select
@@ -1134,14 +2184,81 @@ proxy-groups:
       - "♻️ 自动选择"
       - "🔯 故障转移"
       - DIRECT
-      - "US [优选高速 158.49ms 8.3Mbps] 未实测"
-      - "US [优选高速 158.51ms 8.55Mbps] 未实测"
-      - "US [优选高速 159.99ms 8.71Mbps] 未实测"
-      - "US [优选高速 160.4ms 8.37Mbps] 未实测"
-      - "US [优选高速 161.48ms 8.72Mbps] 未实测"
-      - "US [优选高速 162.15ms 8.54Mbps] 未实测"
-      - "AE [优选高速 170.05ms 9.14Mbps] 未实测"
-      - "NL [优选高速 176.94ms 9.35Mbps] 未实测"
+      - "🇺🇸 美国 82.29.128.19:2053 未实测"
+      - "🇺🇸 美国 159.195.233.192:443 未实测"
+      - "🇺🇸 美国 15.204.80.151:443 未实测"
+      - "🇺🇸 美国 154.9.243.154:443 未实测"
+      - "🇺🇸 美国 104.252.77.72:443 未实测"
+      - "🇺🇸 美国 152.53.89.13:8443 未实测"
+      - "🇺🇸 美国 154.9.227.100:443 未实测"
+      - "🇺🇸 美国 117.55.227.224:443 未实测"
+      - "🇺🇸 美国 147.224.244.150:443 未实测"
+      - "🇺🇸 美国 149.28.92.56:443 未实测"
+      - "🇺🇸 美国 150.136.236.251:443 未实测"
+      - "🇺🇸 美国 154.41.80.155:8443 未实测"
+      - "🇺🇸 美国 154.50.110.125:8443 未实测"
+      - "🇺🇸 美国 104.168.56.73:443 未实测"
+      - "🇺🇸 美国 141.98.41.73:443 未实测"
+      - "🇯🇵 日本 45.66.216.47:443 未实测"
+      - "🇯🇵 日本 140.245.84.30:8443 未实测"
+      - "🇯🇵 日本 139.180.202.209:443 未实测"
+      - "🇯🇵 日本 131.186.58.223:8443 未实测"
+      - "🇯🇵 日本 13.192.5.38:443 未实测"
+      - "🇯🇵 日本 132.226.8.35:8443 未实测"
+      - "🇯🇵 日本 129.225.147.112:443 未实测"
+      - "🇯🇵 日本 108.160.136.71:443 未实测"
+      - "🇯🇵 日本 108.61.163.117:443 未实测"
+      - "🇯🇵 日本 141.147.183.179:8443 未实测"
+      - "🇯🇵 日本 13.230.191.90:443 未实测"
+      - "🇯🇵 日本 104.156.239.15:443 未实测"
+      - "🇯🇵 日本 103.173.179.184:443 未实测"
+      - "🇯🇵 日本 13.115.210.166:443 未实测"
+      - "🇯🇵 日本 138.2.11.127:8443 未实测"
+      - "🇸🇬 新加坡 172.104.47.210:443 未实测"
+      - "🇸🇬 新加坡 43.156.142.191:443 未实测"
+      - "🇸🇬 新加坡 45.77.33.228:443 未实测"
+      - "🇸🇬 新加坡 129.150.49.34:443 未实测"
+      - "🇸🇬 新加坡 140.245.107.0:8443 未实测"
+      - "🇸🇬 新加坡 43.156.39.15:443 未实测"
+      - "🇸🇬 新加坡 172.104.166.253:443 未实测"
+      - "🇸🇬 新加坡 149.118.48.187:443 未实测"
+      - "🇸🇬 新加坡 156.244.57.227:443 未实测"
+      - "🇸🇬 新加坡 178.128.20.158:443 未实测"
+      - "🇸🇬 新加坡 84.32.22.205:443 未实测"
+      - "🇸🇬 新加坡 103.167.151.85:8443 未实测"
+      - "🇸🇬 新加坡 43.163.91.6:443 未实测"
+      - "🇸🇬 新加坡 157.228.130.240:443 未实测"
+      - "🇸🇬 新加坡 3.1.187.169:443 未实测"
+      - "🇭🇰 香港 103.139.1.241:443 未实测"
+      - "🇭🇰 香港 83.147.60.79:443 未实测"
+      - "🇭🇰 香港 103.135.250.82:443 未实测"
+      - "🇭🇰 香港 151.242.125.102:443 未实测"
+      - "🇭🇰 香港 209.33.166.102:443 未实测"
+      - "🇭🇰 香港 103.229.54.103:443 未实测"
+      - "🇭🇰 香港 149.104.29.237:443 未实测"
+      - "🇭🇰 香港 166.88.141.31:443 未实测"
+      - "🇭🇰 香港 95.182.95.41:443 未实测"
+      - "🇭🇰 香港 82.27.116.181:443 未实测"
+      - "🇭🇰 香港 45.207.156.69:8443 未实测"
+      - "🇭🇰 香港 111.92.240.90:8443 未实测"
+      - "🇭🇰 香港 103.97.200.42:443 未实测"
+      - "🇭🇰 香港 149.104.6.15:443 未实测"
+      - "🇭🇰 香港 103.115.64.158:443 未实测"
+      - "🇰🇷 韩国 152.70.239.74:443 未实测"
+      - "🇰🇷 韩国 168.107.36.254:443 未实测"
+      - "🇰🇷 韩国 119.205.235.58:443 未实测"
+      - "🇰🇷 韩国 3.37.58.69:443 未实测"
+      - "🇰🇷 韩国 152.67.198.36:443 未实测"
+      - "🇰🇷 韩国 130.94.29.155:443 未实测"
+      - "🇰🇷 韩国 13.125.9.223:443 未实测"
+      - "🇰🇷 韩国 158.247.253.111:8443 未实测"
+      - "🇰🇷 韩国 43.164.139.71:443 未实测"
+      - "🇰🇷 韩国 43.164.132.109:443 未实测"
+      - "🇰🇷 韩国 132.145.91.135:443 未实测"
+      - "🇰🇷 韩国 64.110.79.66:8443 未实测"
+      - "🇰🇷 韩国 123.111.169.70:2053 未实测"
+      - "🇰🇷 韩国 123.111.169.70:8443 未实测"
+      - "🇰🇷 韩国 101.33.68.172:443 未实测"
       - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
@@ -1214,6 +2331,14 @@ proxy-groups:
       - "48-US 未实测"
       - "49-US 未实测"
       - "50-US 未实测"
+      - "US [优选高速 158.49ms 8.3Mbps] 未实测"
+      - "US [优选高速 158.51ms 8.55Mbps] 未实测"
+      - "US [优选高速 159.99ms 8.71Mbps] 未实测"
+      - "US [优选高速 160.4ms 8.37Mbps] 未实测"
+      - "US [优选高速 161.48ms 8.72Mbps] 未实测"
+      - "US [优选高速 162.15ms 8.54Mbps] 未实测"
+      - "AE [优选高速 170.05ms 9.14Mbps] 未实测"
+      - "NL [优选高速 176.94ms 9.35Mbps] 未实测"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -1222,36 +2347,36 @@ proxy-groups:
     expected-status: "204"
     lazy: true
     proxies:
-      - "US [优选高速 158.49ms 8.3Mbps] 未实测"
-      - "US [优选高速 158.51ms 8.55Mbps] 未实测"
-      - "US [优选高速 159.99ms 8.71Mbps] 未实测"
-      - "US [优选高速 160.4ms 8.37Mbps] 未实测"
-      - "US [优选高速 161.48ms 8.72Mbps] 未实测"
-      - "US [优选高速 162.15ms 8.54Mbps] 未实测"
-      - "AE [优选高速 170.05ms 9.14Mbps] 未实测"
-      - "NL [优选高速 176.94ms 9.35Mbps] 未实测"
-      - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.202.150:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.138.38:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 132.243.30.210:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 149.28.26.137:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.90.139:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
-      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
-      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.250.17.35:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
-      - "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
+      - "🇺🇸 美国 82.29.128.19:2053 未实测"
+      - "🇺🇸 美国 159.195.233.192:443 未实测"
+      - "🇺🇸 美国 15.204.80.151:443 未实测"
+      - "🇺🇸 美国 154.9.243.154:443 未实测"
+      - "🇺🇸 美国 104.252.77.72:443 未实测"
+      - "🇺🇸 美国 152.53.89.13:8443 未实测"
+      - "🇺🇸 美国 154.9.227.100:443 未实测"
+      - "🇺🇸 美国 117.55.227.224:443 未实测"
+      - "🇺🇸 美国 147.224.244.150:443 未实测"
+      - "🇺🇸 美国 149.28.92.56:443 未实测"
+      - "🇺🇸 美国 150.136.236.251:443 未实测"
+      - "🇺🇸 美国 154.41.80.155:8443 未实测"
+      - "🇺🇸 美国 154.50.110.125:8443 未实测"
+      - "🇺🇸 美国 104.168.56.73:443 未实测"
+      - "🇺🇸 美国 141.98.41.73:443 未实测"
+      - "🇯🇵 日本 45.66.216.47:443 未实测"
+      - "🇯🇵 日本 140.245.84.30:8443 未实测"
+      - "🇯🇵 日本 139.180.202.209:443 未实测"
+      - "🇯🇵 日本 131.186.58.223:8443 未实测"
+      - "🇯🇵 日本 13.192.5.38:443 未实测"
+      - "🇯🇵 日本 132.226.8.35:8443 未实测"
+      - "🇯🇵 日本 129.225.147.112:443 未实测"
+      - "🇯🇵 日本 108.160.136.71:443 未实测"
+      - "🇯🇵 日本 108.61.163.117:443 未实测"
+      - "🇯🇵 日本 141.147.183.179:8443 未实测"
+      - "🇯🇵 日本 13.230.191.90:443 未实测"
+      - "🇯🇵 日本 104.156.239.15:443 未实测"
+      - "🇯🇵 日本 103.173.179.184:443 未实测"
+      - "🇯🇵 日本 13.115.210.166:443 未实测"
+      - "🇯🇵 日本 138.2.11.127:8443 未实测"
   - name: "🔯 故障转移"
     type: fallback
     url: "http://www.gstatic.com/generate_204"
@@ -1259,36 +2384,36 @@ proxy-groups:
     expected-status: "204"
     lazy: true
     proxies:
-      - "US [优选高速 158.49ms 8.3Mbps] 未实测"
-      - "US [优选高速 158.51ms 8.55Mbps] 未实测"
-      - "US [优选高速 159.99ms 8.71Mbps] 未实测"
-      - "US [优选高速 160.4ms 8.37Mbps] 未实测"
-      - "US [优选高速 161.48ms 8.72Mbps] 未实测"
-      - "US [优选高速 162.15ms 8.54Mbps] 未实测"
-      - "AE [优选高速 170.05ms 9.14Mbps] 未实测"
-      - "NL [优选高速 176.94ms 9.35Mbps] 未实测"
-      - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.202.150:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.138.38:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 132.243.30.210:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 149.28.26.137:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.90.139:443 未实测"
-      - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
-      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
-      - "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.250.17.35:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
-      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
-      - "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
+      - "🇺🇸 美国 82.29.128.19:2053 未实测"
+      - "🇺🇸 美国 159.195.233.192:443 未实测"
+      - "🇺🇸 美国 15.204.80.151:443 未实测"
+      - "🇺🇸 美国 154.9.243.154:443 未实测"
+      - "🇺🇸 美国 104.252.77.72:443 未实测"
+      - "🇺🇸 美国 152.53.89.13:8443 未实测"
+      - "🇺🇸 美国 154.9.227.100:443 未实测"
+      - "🇺🇸 美国 117.55.227.224:443 未实测"
+      - "🇺🇸 美国 147.224.244.150:443 未实测"
+      - "🇺🇸 美国 149.28.92.56:443 未实测"
+      - "🇺🇸 美国 150.136.236.251:443 未实测"
+      - "🇺🇸 美国 154.41.80.155:8443 未实测"
+      - "🇺🇸 美国 154.50.110.125:8443 未实测"
+      - "🇺🇸 美国 104.168.56.73:443 未实测"
+      - "🇺🇸 美国 141.98.41.73:443 未实测"
+      - "🇯🇵 日本 45.66.216.47:443 未实测"
+      - "🇯🇵 日本 140.245.84.30:8443 未实测"
+      - "🇯🇵 日本 139.180.202.209:443 未实测"
+      - "🇯🇵 日本 131.186.58.223:8443 未实测"
+      - "🇯🇵 日本 13.192.5.38:443 未实测"
+      - "🇯🇵 日本 132.226.8.35:8443 未实测"
+      - "🇯🇵 日本 129.225.147.112:443 未实测"
+      - "🇯🇵 日本 108.160.136.71:443 未实测"
+      - "🇯🇵 日本 108.61.163.117:443 未实测"
+      - "🇯🇵 日本 141.147.183.179:8443 未实测"
+      - "🇯🇵 日本 13.230.191.90:443 未实测"
+      - "🇯🇵 日本 104.156.239.15:443 未实测"
+      - "🇯🇵 日本 103.173.179.184:443 未实测"
+      - "🇯🇵 日本 13.115.210.166:443 未实测"
+      - "🇯🇵 日本 138.2.11.127:8443 未实测"
 rules:
   - "DOMAIN-SUFFIX,local,DIRECT"
   - "DOMAIN-SUFFIX,localhost,DIRECT"
