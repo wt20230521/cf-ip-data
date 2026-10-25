@@ -1,1342 +1,1132 @@
 # PrismTun 订阅 · Clash 配置（联通）
 # 由 PrismTun 自动生成（A 方案双格式 · Clash YAML）
-# 共 95 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
+# 共 80 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
 # 规则为最小内联集（不依赖 geo 文件），可按需在客户端内扩展
 mixed-port: 7890
 allow-lan: false
 mode: rule
 log-level: info
 proxies:
-  - name: "日本成田|250ms|77MB/s 未实测"
+  - name: "US [优选高速 158.49ms 8.3Mbps] 未实测"
     type: vless
-    server: "172.64.229.130"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "179.255.146.221"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|139ms|36MB/s 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 158.51ms 8.55Mbps] 未实测"
     type: vless
-    server: "162.159.237.144"
+    server: "179.253.247.190"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 159.99ms 8.71Mbps] 未实测"
     type: vless
-    server: "104.16.188.10"
+    server: "179.255.141.74"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-2"
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 160.4ms 8.37Mbps] 未实测"
     type: vless
-    server: "104.19.88.203"
+    server: "179.255.103.187"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-3"
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 161.48ms 8.72Mbps] 未实测"
     type: vless
-    server: "162.159.84.10"
+    server: "179.255.148.2"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-4"
+        Host: "open.nmbot.de5.net"
+  - name: "US [优选高速 162.15ms 8.54Mbps] 未实测"
     type: vless
-    server: "104.19.159.82"
+    server: "144.225.255.195"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国洛杉矶|158ms|35MB/s 未实测-5"
+        Host: "open.nmbot.de5.net"
+  - name: "AE [优选高速 170.05ms 9.14Mbps] 未实测"
     type: vless
-    server: "104.16.152.55"
+    server: "91.132.93.153"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|139ms|33MB/s 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "NL [优选高速 176.94ms 9.35Mbps] 未实测"
     type: vless
-    server: "162.159.237.226"
+    server: "89.106.207.235"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|138ms|8MB/s 未实测"
-    type: vless
-    server: "162.159.237.244"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|135ms|8MB/s 未实测"
-    type: vless
-    server: "172.64.79.223"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国圣何塞|141ms|1MB/s 未实测"
-    type: vless
-    server: "162.159.237.79"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国丹佛|212ms|0MB/s 未实测"
-    type: vless
-    server: "103.31.4.62"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "美国丹佛|213ms|0MB/s 未实测"
-    type: vless
-    server: "162.159.224.234"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
     type: vless
     server: "20.27.0.121"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
     type: vless
     server: "20.210.47.12"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
     type: vless
     server: "45.32.54.55"
     port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.202.150:443 未实测"
     type: vless
     server: "45.76.202.150"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.76.207.88:443 未实测"
     type: vless
     server: "45.76.207.88"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 108.160.138.38:443 未实测"
     type: vless
     server: "108.160.138.38"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 132.243.30.210:443 未实测"
     type: vless
     server: "132.243.30.210"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 149.28.26.137:443 未实测"
     type: vless
     server: "149.28.26.137"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.90.139:443 未实测"
     type: vless
     server: "207.148.90.139"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 207.148.114.119:443 未实测"
     type: vless
     server: "207.148.114.119"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 138.2.127.8:8443 未实测"
     type: vless
     server: "138.2.127.8"
     port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | K​R​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 168.107.62.215:443 未实测"
     type: vless
     server: "168.107.62.215"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 4.193.222.166:443 未实测"
     type: vless
     server: "4.193.222.166"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.250.17.35:443 未实测"
     type: vless
     server: "13.250.17.35"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
     type: vless
     server: "13.251.248.21"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
     type: vless
     server: "18.136.135.61"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
     type: vless
     server: "18.136.144.144"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
     type: vless
     server: "47.131.186.184"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
     type: vless
     server: "52.187.43.17"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
     type: vless
     server: "54.151.143.36"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
     type: vless
     server: "161.117.181.127"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
   - name: "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
     type: vless
     server: "156.154.245.83"
     port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "1-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "1-HK 未实测"
     type: vless
-    server: "43.251.226.55"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "101.36.107.31"
+    port: 12345
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "2-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "2-HK 未实测"
     type: vless
-    server: "103.234.53.203"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "156.233.226.235"
+    port: 23333
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "3-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "3-HK 未实测"
     type: vless
-    server: "38.55.122.236"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "45.144.137.42"
+    port: 2443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "4-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "4-HK 未实测"
     type: vless
-    server: "165.154.42.49"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "205.189.160.22"
+    port: 3333
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "5-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "5-HK 未实测"
     type: vless
-    server: "206.237.31.197"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "18.167.241.203"
+    port: 8004
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "6-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "6-HK 未实测"
     type: vless
-    server: "43.161.227.254"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "18.167.241.203"
+    port: 8010
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "7-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "7-HK 未实测"
     type: vless
-    server: "202.181.25.181"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "54.46.72.234"
+    port: 8003
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "8-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "8-HK 未实测"
     type: vless
-    server: "43.161.253.137"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "103.143.81.15"
+    port: 32402
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "9-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "9-HK 未实测"
     type: vless
-    server: "38.55.99.225"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "103.231.15.179"
+    port: 25331
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "10-中国香港 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "10-HK 未实测"
     type: vless
-    server: "16.163.112.171"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "47.239.191.198"
+    port: 9443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "11-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "11-JP 未实测"
     type: vless
-    server: "43.165.178.147"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "47.75.193.125"
+    port: 27005
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "12-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "12-JP 未实测"
     type: vless
-    server: "20.46.114.133"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "47.75.193.125"
+    port: 27004
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "13-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "13-JP 未实测"
     type: vless
-    server: "43.165.189.127"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "43.133.23.88"
+    port: 8388
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "14-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "14-JP 未实测"
     type: vless
-    server: "3.112.67.101"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "47.75.193.125"
+    port: 27006
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "15-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "15-JP 未实测"
     type: vless
-    server: "13.230.116.246"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "38.147.163.223"
+    port: 7444
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "16-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "16-JP 未实测"
     type: vless
-    server: "45.192.201.140"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "43.165.133.183"
+    port: 30058
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "17-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "17-JP 未实测"
     type: vless
-    server: "13.193.244.81"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "43.165.133.183"
+    port: 17628
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "18-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "18-JP 未实测"
     type: vless
-    server: "172.104.120.92"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "172.104.110.10"
+    port: 555
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "19-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "19-JP 未实测"
     type: vless
-    server: "172.237.0.160"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "139.162.83.190"
+    port: 20205
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "20-日本 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "20-JP 未实测"
     type: vless
-    server: "52.199.103.220"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "21-新加坡 未实测"
-    type: vless
-    server: "149.104.6.130"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "22-新加坡 未实测"
-    type: vless
-    server: "172.104.60.181"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "23-新加坡 未实测"
-    type: vless
-    server: "157.245.155.10"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "24-新加坡 未实测"
-    type: vless
-    server: "167.99.71.38"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "25-新加坡 未实测"
-    type: vless
-    server: "159.89.199.63"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "26-新加坡 未实测"
-    type: vless
-    server: "209.97.163.209"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "27-新加坡 未实测"
-    type: vless
-    server: "172.237.81.42"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "28-新加坡 未实测"
-    type: vless
-    server: "152.42.246.237"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "29-新加坡 未实测"
-    type: vless
-    server: "152.42.229.215"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "30-新加坡 未实测"
-    type: vless
-    server: "8.222.221.91"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "31-美国 未实测"
-    type: vless
-    server: "104.17.57.189"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "32-美国 未实测"
-    type: vless
-    server: "104.17.148.11"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "33-美国 未实测"
-    type: vless
-    server: "104.16.248.66"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "34-美国 未实测"
-    type: vless
-    server: "104.17.108.5"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "35-美国 未实测"
-    type: vless
-    server: "104.17.223.151"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "36-美国 未实测"
-    type: vless
-    server: "206.119.173.250"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "37-美国 未实测"
-    type: vless
-    server: "104.19.159.129"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "38-美国 未实测"
-    type: vless
-    server: "104.17.59.185"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "39-美国 未实测"
-    type: vless
-    server: "104.17.233.15"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "40-美国 未实测"
-    type: vless
-    server: "104.19.144.172"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "41-中国台湾 未实测"
-    type: vless
-    server: "114.34.145.183"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
-    udp: true
-    tls: true
-    servername: "sur.936.us.ci"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
-      headers:
-        Host: "sur.936.us.ci"
-  - name: "42-中国台湾 未实测"
-    type: vless
-    server: "220.134.133.216"
+    server: "54.178.110.17"
     port: 4443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "43-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "21-SG 未实测"
     type: vless
-    server: "35.206.194.177"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "103.192.179.207"
+    port: 8112
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "44-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "22-SG 未实测"
     type: vless
-    server: "35.221.193.246"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "140.235.10.56"
+    port: 9999
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "45-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "23-SG 未实测"
     type: vless
-    server: "140.235.39.162"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "168.138.171.70"
+    port: 23280
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "46-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "24-SG 未实测"
     type: vless
-    server: "203.69.248.40"
-    port: 11371
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "138.2.95.61"
+    port: 1111
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "47-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "25-SG 未实测"
     type: vless
-    server: "45.221.115.25"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "152.69.215.220"
+    port: 54857
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "48-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "26-SG 未实测"
     type: vless
-    server: "82.152.91.210"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "213.35.108.135"
+    port: 12596
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "49-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "27-SG 未实测"
     type: vless
-    server: "45.221.115.170"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "146.235.18.248"
+    port: 45137
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "50-中国台湾 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "28-SG 未实测"
     type: vless
-    server: "83.147.15.84"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "213.35.100.31"
+    port: 47112
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "51-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "29-SG 未实测"
     type: vless
-    server: "49.238.236.36"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "129.150.36.188"
+    port: 53435
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "52-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "30-SG 未实测"
     type: vless
-    server: "49.238.236.28"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "138.2.102.189"
+    port: 8011
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "53-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "31-KR 未实测"
     type: vless
-    server: "49.238.237.57"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "45.93.28.137"
+    port: 9443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "54-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "32-KR 未实测"
     type: vless
-    server: "49.238.239.25"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "61.96.248.252"
+    port: 20002
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "55-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "33-KR 未实测"
     type: vless
-    server: "49.238.236.63"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "49.142.200.31"
+    port: 28017
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "56-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "34-KR 未实测"
     type: vless
-    server: "49.238.238.188"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "49.142.200.31"
+    port: 11434
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "57-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "35-KR 未实测"
     type: vless
-    server: "49.238.236.51"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "43.200.143.207"
+    port: 5443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "58-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "36-KR 未实测"
     type: vless
-    server: "49.238.236.62"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "49.142.200.31"
+    port: 12300
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "59-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "37-KR 未实测"
     type: vless
-    server: "49.238.239.17"
-    port: 443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "49.142.91.156"
+    port: 10005
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
-  - name: "60-韩国 未实测"
+        Host: "open.nmbot.de5.net"
+  - name: "38-KR 未实测"
     type: vless
-    server: "49.238.237.32"
-    port: 8443
-    uuid: "872a4bca-c53a-480f-9b2b-200ae3951001"
+    server: "121.175.148.218"
+    port: 31337
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
-    servername: "sur.936.us.ci"
+    servername: "open.nmbot.de5.net"
     client-fingerprint: "chrome"
     network: ws
     ws-opts:
-      path: "/proxyip=kr.william.us.ci?uuid=fd5612ab-549e-4bb5-98aa-e53ea48f9da5"
+      path: "/proxyip=61.124.15.191:443"
       headers:
-        Host: "sur.936.us.ci"
+        Host: "open.nmbot.de5.net"
+  - name: "39-KR 未实测"
+    type: vless
+    server: "49.142.91.156"
+    port: 10554
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "40-KR 未实测"
+    type: vless
+    server: "49.142.91.156"
+    port: 32250
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "41-US 未实测"
+    type: vless
+    server: "104.224.159.139"
+    port: 8096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "42-US 未实测"
+    type: vless
+    server: "144.34.233.141"
+    port: 4711
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "43-US 未实测"
+    type: vless
+    server: "144.34.233.141"
+    port: 4782
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "44-US 未实测"
+    type: vless
+    server: "154.40.40.198"
+    port: 10001
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "45-US 未实测"
+    type: vless
+    server: "104.194.65.160"
+    port: 587
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "46-US 未实测"
+    type: vless
+    server: "64.186.233.93"
+    port: 60030
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "47-US 未实测"
+    type: vless
+    server: "144.34.233.141"
+    port: 4712
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "48-US 未实测"
+    type: vless
+    server: "154.21.89.97"
+    port: 9443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "49-US 未实测"
+    type: vless
+    server: "154.84.59.203"
+    port: 1235
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "50-US 未实测"
+    type: vless
+    server: "95.181.189.45"
+    port: 9443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=61.124.15.191:443"
+      headers:
+        Host: "open.nmbot.de5.net"
 proxy-groups:
   - name: "🚀 节点选择"
     type: select
@@ -1344,19 +1134,14 @@ proxy-groups:
       - "♻️ 自动选择"
       - "🔯 故障转移"
       - DIRECT
-      - "日本成田|250ms|77MB/s 未实测"
-      - "美国圣何塞|139ms|36MB/s 未实测"
-      - "美国洛杉矶|158ms|35MB/s 未实测"
-      - "美国洛杉矶|158ms|35MB/s 未实测-2"
-      - "美国洛杉矶|158ms|35MB/s 未实测-3"
-      - "美国洛杉矶|158ms|35MB/s 未实测-4"
-      - "美国洛杉矶|158ms|35MB/s 未实测-5"
-      - "美国圣何塞|139ms|33MB/s 未实测"
-      - "美国圣何塞|138ms|8MB/s 未实测"
-      - "美国圣何塞|135ms|8MB/s 未实测"
-      - "美国圣何塞|141ms|1MB/s 未实测"
-      - "美国丹佛|212ms|0MB/s 未实测"
-      - "美国丹佛|213ms|0MB/s 未实测"
+      - "US [优选高速 158.49ms 8.3Mbps] 未实测"
+      - "US [优选高速 158.51ms 8.55Mbps] 未实测"
+      - "US [优选高速 159.99ms 8.71Mbps] 未实测"
+      - "US [优选高速 160.4ms 8.37Mbps] 未实测"
+      - "US [优选高速 161.48ms 8.72Mbps] 未实测"
+      - "US [优选高速 162.15ms 8.54Mbps] 未实测"
+      - "AE [优选高速 170.05ms 9.14Mbps] 未实测"
+      - "NL [优选高速 176.94ms 9.35Mbps] 未实测"
       - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
@@ -1379,66 +1164,56 @@ proxy-groups:
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
       - "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
-      - "1-中国香港 未实测"
-      - "2-中国香港 未实测"
-      - "3-中国香港 未实测"
-      - "4-中国香港 未实测"
-      - "5-中国香港 未实测"
-      - "6-中国香港 未实测"
-      - "7-中国香港 未实测"
-      - "8-中国香港 未实测"
-      - "9-中国香港 未实测"
-      - "10-中国香港 未实测"
-      - "11-日本 未实测"
-      - "12-日本 未实测"
-      - "13-日本 未实测"
-      - "14-日本 未实测"
-      - "15-日本 未实测"
-      - "16-日本 未实测"
-      - "17-日本 未实测"
-      - "18-日本 未实测"
-      - "19-日本 未实测"
-      - "20-日本 未实测"
-      - "21-新加坡 未实测"
-      - "22-新加坡 未实测"
-      - "23-新加坡 未实测"
-      - "24-新加坡 未实测"
-      - "25-新加坡 未实测"
-      - "26-新加坡 未实测"
-      - "27-新加坡 未实测"
-      - "28-新加坡 未实测"
-      - "29-新加坡 未实测"
-      - "30-新加坡 未实测"
-      - "31-美国 未实测"
-      - "32-美国 未实测"
-      - "33-美国 未实测"
-      - "34-美国 未实测"
-      - "35-美国 未实测"
-      - "36-美国 未实测"
-      - "37-美国 未实测"
-      - "38-美国 未实测"
-      - "39-美国 未实测"
-      - "40-美国 未实测"
-      - "41-中国台湾 未实测"
-      - "42-中国台湾 未实测"
-      - "43-中国台湾 未实测"
-      - "44-中国台湾 未实测"
-      - "45-中国台湾 未实测"
-      - "46-中国台湾 未实测"
-      - "47-中国台湾 未实测"
-      - "48-中国台湾 未实测"
-      - "49-中国台湾 未实测"
-      - "50-中国台湾 未实测"
-      - "51-韩国 未实测"
-      - "52-韩国 未实测"
-      - "53-韩国 未实测"
-      - "54-韩国 未实测"
-      - "55-韩国 未实测"
-      - "56-韩国 未实测"
-      - "57-韩国 未实测"
-      - "58-韩国 未实测"
-      - "59-韩国 未实测"
-      - "60-韩国 未实测"
+      - "1-HK 未实测"
+      - "2-HK 未实测"
+      - "3-HK 未实测"
+      - "4-HK 未实测"
+      - "5-HK 未实测"
+      - "6-HK 未实测"
+      - "7-HK 未实测"
+      - "8-HK 未实测"
+      - "9-HK 未实测"
+      - "10-HK 未实测"
+      - "11-JP 未实测"
+      - "12-JP 未实测"
+      - "13-JP 未实测"
+      - "14-JP 未实测"
+      - "15-JP 未实测"
+      - "16-JP 未实测"
+      - "17-JP 未实测"
+      - "18-JP 未实测"
+      - "19-JP 未实测"
+      - "20-JP 未实测"
+      - "21-SG 未实测"
+      - "22-SG 未实测"
+      - "23-SG 未实测"
+      - "24-SG 未实测"
+      - "25-SG 未实测"
+      - "26-SG 未实测"
+      - "27-SG 未实测"
+      - "28-SG 未实测"
+      - "29-SG 未实测"
+      - "30-SG 未实测"
+      - "31-KR 未实测"
+      - "32-KR 未实测"
+      - "33-KR 未实测"
+      - "34-KR 未实测"
+      - "35-KR 未实测"
+      - "36-KR 未实测"
+      - "37-KR 未实测"
+      - "38-KR 未实测"
+      - "39-KR 未实测"
+      - "40-KR 未实测"
+      - "41-US 未实测"
+      - "42-US 未实测"
+      - "43-US 未实测"
+      - "44-US 未实测"
+      - "45-US 未实测"
+      - "46-US 未实测"
+      - "47-US 未实测"
+      - "48-US 未实测"
+      - "49-US 未实测"
+      - "50-US 未实测"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
@@ -1447,19 +1222,14 @@ proxy-groups:
     expected-status: "204"
     lazy: true
     proxies:
-      - "日本成田|250ms|77MB/s 未实测"
-      - "美国圣何塞|139ms|36MB/s 未实测"
-      - "美国洛杉矶|158ms|35MB/s 未实测"
-      - "美国洛杉矶|158ms|35MB/s 未实测-2"
-      - "美国洛杉矶|158ms|35MB/s 未实测-3"
-      - "美国洛杉矶|158ms|35MB/s 未实测-4"
-      - "美国洛杉矶|158ms|35MB/s 未实测-5"
-      - "美国圣何塞|139ms|33MB/s 未实测"
-      - "美国圣何塞|138ms|8MB/s 未实测"
-      - "美国圣何塞|135ms|8MB/s 未实测"
-      - "美国圣何塞|141ms|1MB/s 未实测"
-      - "美国丹佛|212ms|0MB/s 未实测"
-      - "美国丹佛|213ms|0MB/s 未实测"
+      - "US [优选高速 158.49ms 8.3Mbps] 未实测"
+      - "US [优选高速 158.51ms 8.55Mbps] 未实测"
+      - "US [优选高速 159.99ms 8.71Mbps] 未实测"
+      - "US [优选高速 160.4ms 8.37Mbps] 未实测"
+      - "US [优选高速 161.48ms 8.72Mbps] 未实测"
+      - "US [优选高速 162.15ms 8.54Mbps] 未实测"
+      - "AE [优选高速 170.05ms 9.14Mbps] 未实测"
+      - "NL [优选高速 176.94ms 9.35Mbps] 未实测"
       - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
@@ -1477,6 +1247,11 @@ proxy-groups:
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
+      - "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
   - name: "🔯 故障转移"
     type: fallback
     url: "http://www.gstatic.com/generate_204"
@@ -1484,19 +1259,14 @@ proxy-groups:
     expected-status: "204"
     lazy: true
     proxies:
-      - "日本成田|250ms|77MB/s 未实测"
-      - "美国圣何塞|139ms|36MB/s 未实测"
-      - "美国洛杉矶|158ms|35MB/s 未实测"
-      - "美国洛杉矶|158ms|35MB/s 未实测-2"
-      - "美国洛杉矶|158ms|35MB/s 未实测-3"
-      - "美国洛杉矶|158ms|35MB/s 未实测-4"
-      - "美国洛杉矶|158ms|35MB/s 未实测-5"
-      - "美国圣何塞|139ms|33MB/s 未实测"
-      - "美国圣何塞|138ms|8MB/s 未实测"
-      - "美国圣何塞|135ms|8MB/s 未实测"
-      - "美国圣何塞|141ms|1MB/s 未实测"
-      - "美国丹佛|212ms|0MB/s 未实测"
-      - "美国丹佛|213ms|0MB/s 未实测"
+      - "US [优选高速 158.49ms 8.3Mbps] 未实测"
+      - "US [优选高速 158.51ms 8.55Mbps] 未实测"
+      - "US [优选高速 159.99ms 8.71Mbps] 未实测"
+      - "US [优选高速 160.4ms 8.37Mbps] 未实测"
+      - "US [优选高速 161.48ms 8.72Mbps] 未实测"
+      - "US [优选高速 162.15ms 8.54Mbps] 未实测"
+      - "AE [优选高速 170.05ms 9.14Mbps] 未实测"
+      - "NL [优选高速 176.94ms 9.35Mbps] 未实测"
       - "Mia优选 | 10-25 15:38 | BestCF.pages.dev 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 20.210.47.12:443 未实测"
       - "Mia优选 | J​P​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 45.32.54.55:8443 未实测"
@@ -1514,6 +1284,11 @@ proxy-groups:
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 13.251.248.21:443 未实测"
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.135.61:443 未实测"
       - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 18.136.144.144:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 47.131.186.184:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 52.187.43.17:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 54.151.143.36:443 未实测"
+      - "Mia优选 | S​G​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 161.117.181.127:443 未实测"
+      - "Mia优选 | A​E​ ​T​G​:​@​M​i​a​C​h​a​t​C​h​a​n​n​e​l | 156.154.245.83:443 未实测"
 rules:
   - "DOMAIN-SUFFIX,local,DIRECT"
   - "DOMAIN-SUFFIX,localhost,DIRECT"
