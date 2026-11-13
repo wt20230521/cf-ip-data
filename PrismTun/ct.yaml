@@ -1,6 +1,6 @@
 # PrismTun 订阅 · Clash 配置（电信）
 # 由 PrismTun 自动生成（A 方案双格式 · Clash YAML）
-# 共 276 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
+# 共 361 个节点 · 适配 FLClash / Clash for Android / Clash Verge / Stash
 # 规则为最小内联集（不依赖 geo 文件），可按需在客户端内扩展
 mixed-port: 7890
 allow-lan: false
@@ -1071,1423 +1071,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "🇹🇼 台湾 · 台北市 (TW) 175 ms 未实测"
+  - name: "HK›HKG天诚🌐官方🌐交流🌐群组™：@zyssadmin 未实测"
     type: vless
-    server: "175.181.176.131"
-    port: 37080
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇹🇼 台湾 · 內湖 (TW) 191 ms 未实测"
-    type: vless
-    server: "175.182.174.182"
-    port: 27708
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇯🇵 日本 (JP) 44 ms 优 未实测"
-    type: vless
-    server: "47.91.2.170"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇯🇵 日本 (JP) 46 ms 优 未实测"
-    type: vless
-    server: "8.209.238.61"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇯🇵 日本 (JP) 47 ms 优 未实测"
-    type: vless
-    server: "43.133.187.219"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇯🇵 日本 (JP) 53 ms 优 未实测"
-    type: vless
-    server: "43.128.228.127"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇯🇵 日本 (JP) 54 ms 优 未实测"
-    type: vless
-    server: "124.156.218.72"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇯🇵 日本 · 东京 (JP) 41 ms 优 未实测"
-    type: vless
-    server: "43.165.179.157"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇰🇷 韩国 · Yeongdeungpo-gu (KR) 51 ms 优 未实测"
-    type: vless
-    server: "39.115.137.14"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 47 ms 优 未实测"
-    type: vless
-    server: "146.190.6.134"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 48 ms 优 未实测"
-    type: vless
-    server: "139.59.226.216"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 49 ms 优 未实测"
-    type: vless
-    server: "68.183.186.117"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 50 ms 优 未实测"
-    type: vless
-    server: "43.156.228.10"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 52 ms 优 未实测"
-    type: vless
-    server: "157.230.254.79"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 54 ms 优 未实测"
-    type: vless
-    server: "139.59.250.67"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 54 ms 优 未实测-2"
-    type: vless
-    server: "152.42.174.66"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 58 ms 优 未实测"
-    type: vless
-    server: "124.156.197.81"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 60 ms 未实测"
-    type: vless
-    server: "165.22.99.110"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 61 ms 未实测"
-    type: vless
-    server: "152.42.173.234"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 61 ms 未实测-2"
-    type: vless
-    server: "43.163.3.207"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 63 ms 未实测"
-    type: vless
-    server: "152.42.232.219"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 63 ms 未实测-2"
-    type: vless
-    server: "43.134.180.174"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 64 ms 未实测"
-    type: vless
-    server: "128.199.128.117"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 64 ms 未实测-2"
-    type: vless
-    server: "43.134.72.158"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 65 ms 未实测"
-    type: vless
-    server: "178.128.86.3"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 65 ms 未实测-2"
-    type: vless
-    server: "143.198.81.235"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 65 ms 未实测-3"
-    type: vless
-    server: "43.160.253.245"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 65 ms 未实测-4"
-    type: vless
-    server: "139.59.235.98"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 65 ms 未实测-5"
-    type: vless
-    server: "43.134.2.196"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 66 ms 未实测"
-    type: vless
-    server: "157.245.144.174"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 67 ms 未实测"
-    type: vless
-    server: "159.223.71.229"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 68 ms 未实测"
-    type: vless
-    server: "104.248.153.206"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 69 ms 未实测"
-    type: vless
-    server: "167.99.65.145"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 70 ms 未实测"
-    type: vless
-    server: "206.189.90.44"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 72 ms 未实测"
-    type: vless
-    server: "47.84.241.120"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 74 ms 未实测"
-    type: vless
-    server: "68.183.180.221"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 75 ms 未实测"
-    type: vless
-    server: "157.245.56.32"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 79 ms 未实测"
-    type: vless
-    server: "167.99.71.38"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 79 ms 未实测-2"
-    type: vless
-    server: "152.42.220.114"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 83 ms 未实测"
-    type: vless
-    server: "157.230.248.157"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 83 ms 未实测-2"
-    type: vless
-    server: "104.248.158.149"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 83 ms 未实测-3"
-    type: vless
-    server: "159.223.78.76"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 90 ms 未实测"
-    type: vless
-    server: "152.42.205.49"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 93 ms 未实测"
-    type: vless
-    server: "165.22.106.244"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 96 ms 未实测"
-    type: vless
-    server: "165.22.106.241"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 97 ms 未实测"
-    type: vless
-    server: "206.189.39.92"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 107 ms 未实测"
-    type: vless
-    server: "188.166.250.155"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 (SG) 200 ms 未实测"
-    type: vless
-    server: "165.22.252.129"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 47 ms 优 未实测"
-    type: vless
-    server: "167.172.75.2"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 50 ms 优 未实测"
-    type: vless
-    server: "165.22.57.131"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 50 ms 优 未实测-2"
-    type: vless
-    server: "178.128.84.81"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 51 ms 优 未实测"
-    type: vless
-    server: "146.190.103.118"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 53 ms 优 未实测"
-    type: vless
-    server: "174.138.17.183"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 53 ms 优 未实测-2"
-    type: vless
-    server: "167.71.194.170"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 54 ms 优 未实测"
-    type: vless
-    server: "206.189.95.233"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 56 ms 优 未实测"
-    type: vless
-    server: "206.189.43.21"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇰🇷 韩国 · 首尔特别市 (KR) 57 ms 优 未实测"
-    type: vless
-    server: "43.108.92.2"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 58 ms 优 未实测"
-    type: vless
-    server: "134.209.103.91"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 59 ms 优 未实测"
-    type: vless
-    server: "43.156.208.155"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 62 ms 未实测"
-    type: vless
-    server: "68.183.239.3"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 63 ms 未实测"
-    type: vless
-    server: "8.219.1.182"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 65 ms 未实测"
-    type: vless
-    server: "8.219.108.10"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 67 ms 未实测"
-    type: vless
-    server: "47.237.81.239"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 67 ms 未实测-2"
-    type: vless
-    server: "209.97.163.209"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 67 ms 未实测-3"
-    type: vless
-    server: "157.230.32.24"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 70 ms 未实测"
-    type: vless
-    server: "47.84.41.158"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 70 ms 未实测-2"
-    type: vless
-    server: "152.42.232.186"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 70 ms 未实测-3"
-    type: vless
-    server: "134.209.108.21"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 71 ms 未实测"
-    type: vless
-    server: "43.159.54.175"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 73 ms 未实测"
-    type: vless
-    server: "143.198.206.8"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 75 ms 未实测"
-    type: vless
-    server: "139.59.246.228"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 76 ms 未实测"
-    type: vless
-    server: "43.156.159.240"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 76 ms 未实测-2"
-    type: vless
-    server: "167.71.215.36"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 76 ms 未实测-3"
-    type: vless
-    server: "159.89.203.141"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 79 ms 未实测"
-    type: vless
-    server: "157.230.243.63"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 81 ms 未实测"
-    type: vless
-    server: "152.42.254.219"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 82 ms 未实测"
-    type: vless
-    server: "157.245.198.117"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 84 ms 未实测"
-    type: vless
-    server: "165.232.165.200"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 92 ms 未实测"
-    type: vless
-    server: "146.190.87.188"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 100 ms 未实测"
-    type: vless
-    server: "47.84.131.27"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 108 ms 未实测"
-    type: vless
-    server: "167.172.68.31"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 137 ms 未实测"
-    type: vless
-    server: "15.235.245.169"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 142 ms 未实测"
-    type: vless
-    server: "15.235.243.166"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 158 ms 未实测"
-    type: vless
-    server: "51.79.220.23"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 164 ms 未实测"
-    type: vless
-    server: "51.79.168.27"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 167 ms 未实测"
-    type: vless
-    server: "139.99.125.131"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 169 ms 未实测"
-    type: vless
-    server: "139.99.124.49"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 227 ms 未实测"
-    type: vless
-    server: "167.71.213.95"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 228 ms 未实测"
-    type: vless
-    server: "51.79.248.128"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "🇸🇬 新加坡 · 新加坡 (SG) 243 ms 未实测"
-    type: vless
-    server: "51.79.164.43"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK1 未实测"
-    type: vless
-    server: "43.161.254.71"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK2 未实测"
-    type: vless
-    server: "82.27.116.133"
-    port: 2096
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK3 未实测"
-    type: vless
-    server: "45.207.157.136"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK4 未实测"
-    type: vless
-    server: "45.39.199.98"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK5 未实测"
-    type: vless
-    server: "209.33.161.104"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK6 未实测"
-    type: vless
-    server: "34.96.247.17"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK7 未实测"
-    type: vless
-    server: "45.207.156.204"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK8 未实测"
-    type: vless
-    server: "45.196.235.64"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK9 未实测"
-    type: vless
-    server: "45.39.190.155"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK10 未实测"
-    type: vless
-    server: "154.16.183.151"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK11 未实测"
-    type: vless
-    server: "23.156.153.40"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK12 未实测"
-    type: vless
-    server: "45.38.60.153"
+    server: "152.175.7.58"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -2499,9 +1085,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "HK13 未实测"
+  - name: "HK›HKG天诚🌐官方🌐分享🌐群组™：@AutoSubFBot 未实测"
     type: vless
-    server: "43.161.233.40"
+    server: "108.165.255.150"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -2513,10 +1099,10 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "HK14 未实测"
+  - name: "HK›HKG天诚🌐官方🌐发布🌐频道™：@zyssadmin 未实测"
     type: vless
-    server: "141.11.91.16"
-    port: 443
+    server: "112.119.223.177"
+    port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
@@ -2527,9 +1113,23 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "HK15 未实测"
+  - name: "HK›HKG天诚🌐官方🌐获取🌐群组™：@AutoSubFBot 未实测"
     type: vless
-    server: "141.11.149.89"
+    server: "116.49.210.182"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "HK›HKG天诚🌐官方🌐更新🌐群组™：@AutoSubFBot 未实测"
+    type: vless
+    server: "45.153.130.54"
     port: 2053
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -2541,10 +1141,10 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "HK16 未实测"
+  - name: "HK›HKG 未实测"
     type: vless
-    server: "45.38.60.153"
-    port: 2053
+    server: "23.26.139.91"
+    port: 20001
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
@@ -2555,233 +1155,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "HK17 未实测"
+  - name: "HK›SJC 未实测"
     type: vless
-    server: "45.149.186.55"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK18 未实测"
-    type: vless
-    server: "154.16.183.190"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK19 未实测"
-    type: vless
-    server: "156.226.168.41"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK20 未实测"
-    type: vless
-    server: "45.207.156.183"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK21 未实测"
-    type: vless
-    server: "156.224.79.83"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK22 未实测"
-    type: vless
-    server: "103.69.128.221"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK23 未实测"
-    type: vless
-    server: "103.219.194.151"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "HK24 未实测"
-    type: vless
-    server: "38.207.176.165"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP1 未实测"
-    type: vless
-    server: "167.148.6.161"
-    port: 2083
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP2 未实测"
-    type: vless
-    server: "153.121.51.228"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP3 未实测"
-    type: vless
-    server: "45.192.207.240"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP4 未实测"
-    type: vless
-    server: "149.28.19.44"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP5 未实测"
-    type: vless
-    server: "149.28.26.137"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP6 未实测"
-    type: vless
-    server: "35.78.169.69"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP7 未实测"
-    type: vless
-    server: "142.91.109.17"
-    port: 2096
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP8 未实测"
-    type: vless
-    server: "156.246.88.222"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP9 未实测"
-    type: vless
-    server: "45.32.54.55"
+    server: "124.156.157.6"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -2793,9 +1169,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "JP10 未实测"
+  - name: "HK›HKG 未实测-2"
     type: vless
-    server: "45.76.222.30"
+    server: "45.202.248.246"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -2807,23 +1183,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "JP11 未实测"
+  - name: "HK›NRT 未实测"
     type: vless
-    server: "154.83.95.129"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP12 未实测"
-    type: vless
-    server: "154.83.93.208"
+    server: "216.23.87.223"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -2835,135 +1197,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "JP13 未实测"
+  - name: "HK›HKG 未实测-3"
     type: vless
-    server: "152.70.108.9"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP14 未实测"
-    type: vless
-    server: "149.28.26.9"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP15 未实测"
-    type: vless
-    server: "45.76.216.65"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP16 未实测"
-    type: vless
-    server: "150.230.212.247"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP17 未实测"
-    type: vless
-    server: "141.147.182.70"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP18 未实测"
-    type: vless
-    server: "45.32.44.220"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP19 未实测"
-    type: vless
-    server: "45.32.38.133"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP20 未实测"
-    type: vless
-    server: "151.241.129.194"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP21 未实测"
-    type: vless
-    server: "142.91.109.197"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "JP22 未实测"
-    type: vless
-    server: "156.231.115.17"
+    server: "103.240.198.64"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -2975,93 +1211,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "JP23 未实测"
+  - name: "TW›TPE 未实测"
     type: vless
-    server: "23.27.201.85"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "KR1 未实测"
-    type: vless
-    server: "152.67.199.150"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "KR2 未实测"
-    type: vless
-    server: "146.56.151.92"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "KR3 未实测"
-    type: vless
-    server: "168.107.36.135"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "KR4 未实测"
-    type: vless
-    server: "193.123.236.206"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "KR5 未实测"
-    type: vless
-    server: "132.145.91.135"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "KR6 未实测"
-    type: vless
-    server: "168.107.40.4"
+    server: "78.105.183.76"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3073,10 +1225,10 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR7 未实测"
+  - name: "TW›HKG 未实测"
     type: vless
-    server: "140.245.65.122"
-    port: 443
+    server: "154.40.61.186"
+    port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
@@ -3087,10 +1239,10 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR8 未实测"
+  - name: "TW›TPE 未实测-2"
     type: vless
-    server: "131.186.16.166"
-    port: 443
+    server: "141.11.86.150"
+    port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
@@ -3101,10 +1253,10 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR9 未实测"
+  - name: "TW›TPE 未实测-3"
     type: vless
-    server: "144.24.90.178"
-    port: 443
+    server: "83.147.15.84"
+    port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
@@ -3115,9 +1267,51 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR10 未实测"
+  - name: "TW›TPE 未实测-4"
     type: vless
-    server: "158.247.253.111"
+    server: "35.221.213.37"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "SG›SIN 未实测"
+    type: vless
+    server: "124.243.177.65"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "SG›ICN 未实测"
+    type: vless
+    server: "101.33.80.58"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "SG›ARN 未实测"
+    type: vless
+    server: "13.140.94.36"
     port: 2087
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3129,9 +1323,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR11 未实测"
+  - name: "SG›SIN 未实测-2"
     type: vless
-    server: "146.56.187.1"
+    server: "43.159.41.66"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3143,10 +1337,10 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR12 未实测"
+  - name: "SG›AMS 未实测"
     type: vless
-    server: "161.118.153.136"
-    port: 443
+    server: "13.140.95.76"
+    port: 2087
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
     tls: true
@@ -3157,7 +1351,399 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR13 未实测"
+  - name: "SG›SIN 未实测-3"
+    type: vless
+    server: "109.176.19.108"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "SG›SIN 未实测-4"
+    type: vless
+    server: "217.216.32.115"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "SG›SIN 未实测-5"
+    type: vless
+    server: "43.160.253.245"
+    port: 9443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "SG›ARN 未实测-2"
+    type: vless
+    server: "13.140.81.194"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "SG›SIN 未实测-6"
+    type: vless
+    server: "161.118.198.6"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›KIX 未实测"
+    type: vless
+    server: "178.157.63.4"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›NRT 未实测"
+    type: vless
+    server: "45.8.114.211"
+    port: 8000
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›NRT 未实测-2"
+    type: vless
+    server: "74.82.221.66"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›NRT 未实测-3"
+    type: vless
+    server: "43.133.182.244"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›NRT 未实测-4"
+    type: vless
+    server: "43.130.248.164"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›NRT 未实测-5"
+    type: vless
+    server: "103.170.233.114"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›NRT 未实测-6"
+    type: vless
+    server: "5.34.220.114"
+    port: 44301
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›NRT 未实测-7"
+    type: vless
+    server: "45.196.233.233"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›KIX 未实测-2"
+    type: vless
+    server: "133.18.186.197"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "JP›KIX 未实测-3"
+    type: vless
+    server: "138.2.55.211"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›NRT 未实测"
+    type: vless
+    server: "198.44.180.205"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测"
+    type: vless
+    server: "64.186.236.122"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测-2"
+    type: vless
+    server: "179.255.132.125"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测-3"
+    type: vless
+    server: "69.63.222.24"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测-4"
+    type: vless
+    server: "154.17.25.38"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›SJC 未实测"
+    type: vless
+    server: "62.3.15.150"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测-5"
+    type: vless
+    server: "154.26.232.7"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测-6"
+    type: vless
+    server: "179.255.133.231"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测-7"
+    type: vless
+    server: "89.208.245.185"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "US›LAX 未实测-8"
+    type: vless
+    server: "68.68.250.133"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›ICN 未实测"
+    type: vless
+    server: "222.108.232.140"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›NRT 未实测"
+    type: vless
+    server: "1.221.116.197"
+    port: 16087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›SEA 未实测"
+    type: vless
+    server: "43.155.128.147"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›ICN 未实测-2"
     type: vless
     server: "152.70.237.30"
     port: 8443
@@ -3171,9 +1757,233 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR14 未实测"
+  - name: "KR›ICN 未实测-3"
     type: vless
-    server: "193.122.119.241"
+    server: "131.186.22.95"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›ICN 未实测-4"
+    type: vless
+    server: "138.2.121.130"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›ICN 未实测-5"
+    type: vless
+    server: "43.155.166.65"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›HKG 未实测"
+    type: vless
+    server: "1.250.142.241"
+    port: 19233
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›HKG 未实测-2"
+    type: vless
+    server: "1.250.142.241"
+    port: 18057
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "KR›PDX 未实测"
+    type: vless
+    server: "14.44.19.57"
+    port: 12101
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测"
+    type: vless
+    server: "82.139.238.246"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测-2"
+    type: vless
+    server: "2.26.17.43"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测-3"
+    type: vless
+    server: "2.27.36.159"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测-4"
+    type: vless
+    server: "91.107.174.149"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测-5"
+    type: vless
+    server: "178.105.65.222"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测-6"
+    type: vless
+    server: "2.26.112.49"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测-7"
+    type: vless
+    server: "89.127.218.186"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›FRA 未实测-8"
+    type: vless
+    server: "91.228.152.34"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›CDG 未实测"
+    type: vless
+    server: "5.75.200.172"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "DE›HAM 未实测"
+    type: vless
+    server: "159.195.193.23"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "官方优选01 未实测"
+    type: vless
+    server: "cf.cloudflare.182682.xyz"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3185,9 +1995,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR15 未实测"
+  - name: "官方优选02 未实测"
     type: vless
-    server: "168.107.59.24"
+    server: "cf.tencentapp.cn"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3199,7 +2009,1701 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR16 未实测"
+  - name: "官方优选03 未实测"
+    type: vless
+    server: "www.visa.cn"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "官方优选04 未实测"
+    type: vless
+    server: "mfa.gov.ua"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "官方优选05 未实测"
+    type: vless
+    server: "cf.877774.xyz"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "官方优选06 未实测"
+    type: vless
+    server: "saas.sin.fan"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "官方优选07 未实测"
+    type: vless
+    server: "bestcf.030101.xyz"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "官方优选08 未实测"
+    type: vless
+    server: "cm.cf.090227.xyz"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "官方优选10 未实测"
+    type: vless
+    server: "cfip.xxxxxxxx.tk"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "中国电信 未实测"
+    type: vless
+    server: "ctcc.cloudflare.seeck.cn"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "中国移动 未实测"
+    type: vless
+    server: "cmcc.cloudflare.seeck.cn"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "中国联通 未实测"
+    type: vless
+    server: "cucc.cloudflare.seeck.cn"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "中国三网 未实测"
+    type: vless
+    server: "cloudflare.seeck.cn"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-443-WS-TLS 未实测"
+    type: vless
+    server: "104.16.243.187"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-8443-WS-TLS 未实测"
+    type: vless
+    server: "104.16.243.187"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2053-WS-TLS 未实测"
+    type: vless
+    server: "104.16.243.187"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2087-WS-TLS 未实测"
+    type: vless
+    server: "104.16.243.187"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2096-WS-TLS 未实测"
+    type: vless
+    server: "104.16.243.187"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-443-WS-TLS 未实测-2"
+    type: vless
+    server: "104.16.249.95"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-8443-WS-TLS 未实测-2"
+    type: vless
+    server: "104.16.249.95"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2053-WS-TLS 未实测-2"
+    type: vless
+    server: "104.16.249.95"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2087-WS-TLS 未实测-2"
+    type: vless
+    server: "104.16.249.95"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2096-WS-TLS 未实测-2"
+    type: vless
+    server: "104.16.249.95"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-443-WS-TLS 未实测-3"
+    type: vless
+    server: "104.17.30.189"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-8443-WS-TLS 未实测-3"
+    type: vless
+    server: "104.17.30.189"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2053-WS-TLS 未实测-3"
+    type: vless
+    server: "104.17.30.189"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2087-WS-TLS 未实测-3"
+    type: vless
+    server: "104.17.30.189"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2096-WS-TLS 未实测-3"
+    type: vless
+    server: "104.17.30.189"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-443-WS-TLS 未实测-4"
+    type: vless
+    server: "104.17.171.175"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-8443-WS-TLS 未实测-4"
+    type: vless
+    server: "104.17.171.175"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2053-WS-TLS 未实测-4"
+    type: vless
+    server: "104.17.171.175"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2087-WS-TLS 未实测-4"
+    type: vless
+    server: "104.17.171.175"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2096-WS-TLS 未实测-4"
+    type: vless
+    server: "104.17.171.175"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-443-WS-TLS 未实测"
+    type: vless
+    server: "104.18.36.135"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-8443-WS-TLS 未实测"
+    type: vless
+    server: "104.18.36.135"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2053-WS-TLS 未实测"
+    type: vless
+    server: "104.18.36.135"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2087-WS-TLS 未实测"
+    type: vless
+    server: "104.18.36.135"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2096-WS-TLS 未实测"
+    type: vless
+    server: "104.18.36.135"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-443-WS-TLS 未实测-5"
+    type: vless
+    server: "104.19.206.104"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-8443-WS-TLS 未实测-5"
+    type: vless
+    server: "104.19.206.104"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2053-WS-TLS 未实测-5"
+    type: vless
+    server: "104.19.206.104"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2087-WS-TLS 未实测-5"
+    type: vless
+    server: "104.19.206.104"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "联通-LAX-2096-WS-TLS 未实测-5"
+    type: vless
+    server: "104.19.206.104"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-443-WS-TLS 未实测"
+    type: vless
+    server: "104.21.81.172"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-8443-WS-TLS 未实测"
+    type: vless
+    server: "104.21.81.172"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-2053-WS-TLS 未实测"
+    type: vless
+    server: "104.21.81.172"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-2087-WS-TLS 未实测"
+    type: vless
+    server: "104.21.81.172"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-2096-WS-TLS 未实测"
+    type: vless
+    server: "104.21.81.172"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-443-WS-TLS 未实测"
+    type: vless
+    server: "162.159.132.238"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-8443-WS-TLS 未实测"
+    type: vless
+    server: "162.159.132.238"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2053-WS-TLS 未实测"
+    type: vless
+    server: "162.159.132.238"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2087-WS-TLS 未实测"
+    type: vless
+    server: "162.159.132.238"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2096-WS-TLS 未实测"
+    type: vless
+    server: "162.159.132.238"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-443-WS-TLS 未实测-2"
+    type: vless
+    server: "162.159.135.17"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-8443-WS-TLS 未实测-2"
+    type: vless
+    server: "162.159.135.17"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2053-WS-TLS 未实测-2"
+    type: vless
+    server: "162.159.135.17"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2087-WS-TLS 未实测-2"
+    type: vless
+    server: "162.159.135.17"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2096-WS-TLS 未实测-2"
+    type: vless
+    server: "162.159.135.17"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-443-WS-TLS 未实测-3"
+    type: vless
+    server: "162.159.148.73"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-8443-WS-TLS 未实测-3"
+    type: vless
+    server: "162.159.148.73"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2053-WS-TLS 未实测-3"
+    type: vless
+    server: "162.159.148.73"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2087-WS-TLS 未实测-3"
+    type: vless
+    server: "162.159.148.73"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-LHR-2096-WS-TLS 未实测-3"
+    type: vless
+    server: "162.159.148.73"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-443-WS-TLS 未实测-2"
+    type: vless
+    server: "172.64.145.232"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-8443-WS-TLS 未实测-2"
+    type: vless
+    server: "172.64.145.232"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2053-WS-TLS 未实测-2"
+    type: vless
+    server: "172.64.145.232"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2087-WS-TLS 未实测-2"
+    type: vless
+    server: "172.64.145.232"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2096-WS-TLS 未实测-2"
+    type: vless
+    server: "172.64.145.232"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-443-WS-TLS 未实测-3"
+    type: vless
+    server: "172.64.146.161"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-8443-WS-TLS 未实测-3"
+    type: vless
+    server: "172.64.146.161"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2053-WS-TLS 未实测-3"
+    type: vless
+    server: "172.64.146.161"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2087-WS-TLS 未实测-3"
+    type: vless
+    server: "172.64.146.161"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2096-WS-TLS 未实测-3"
+    type: vless
+    server: "172.64.146.161"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-443-WS-TLS 未实测-4"
+    type: vless
+    server: "172.64.149.8"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-8443-WS-TLS 未实测-4"
+    type: vless
+    server: "172.64.149.8"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2053-WS-TLS 未实测-4"
+    type: vless
+    server: "172.64.149.8"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2087-WS-TLS 未实测-4"
+    type: vless
+    server: "172.64.149.8"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2096-WS-TLS 未实测-4"
+    type: vless
+    server: "172.64.149.8"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-443-WS-TLS 未实测-5"
+    type: vless
+    server: "172.64.153.201"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-8443-WS-TLS 未实测-5"
+    type: vless
+    server: "172.64.153.201"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2053-WS-TLS 未实测-5"
+    type: vless
+    server: "172.64.153.201"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2087-WS-TLS 未实测-5"
+    type: vless
+    server: "172.64.153.201"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "电信-SIN-2096-WS-TLS 未实测-5"
+    type: vless
+    server: "172.64.153.201"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-443-WS-TLS 未实测-2"
+    type: vless
+    server: "172.66.212.185"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-8443-WS-TLS 未实测-2"
+    type: vless
+    server: "172.66.212.185"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-2053-WS-TLS 未实测-2"
+    type: vless
+    server: "172.66.212.185"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-2087-WS-TLS 未实测-2"
+    type: vless
+    server: "172.66.212.185"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "移动-HKG-2096-WS-TLS 未实测-2"
+    type: vless
+    server: "172.66.212.185"
+    port: 2096
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 全量版 | 11-13 08:07 | BestCF.pages.dev 未实测"
+    type: vless
+    server: "162.159.198.1"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 64.226.84.161:443 未实测"
+    type: vless
+    server: "64.226.84.161"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 64.226.95.244:2053 未实测"
+    type: vless
+    server: "64.226.95.244"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 46.224.85.150:443 未实测"
+    type: vless
+    server: "46.224.85.150"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 57.131.137.241:443 未实测"
+    type: vless
+    server: "57.131.137.241"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 195.123.237.140:443 未实测"
+    type: vless
+    server: "195.123.237.140"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 64.226.88.144:8443 未实测"
+    type: vless
+    server: "64.226.88.144"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 95.169.166.160:443 未实测"
+    type: vless
+    server: "95.169.166.160"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 94.16.111.116:8443 未实测"
+    type: vless
+    server: "94.16.111.116"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 45.147.48.147:443 未实测"
+    type: vless
+    server: "45.147.48.147"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 元首复活 | DE | 45.136.29.99:443 未实测"
+    type: vless
+    server: "45.136.29.99"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 43.161.253.137:443 未实测"
+    type: vless
+    server: "43.161.253.137"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 122.10.119.252:443 未实测"
+    type: vless
+    server: "122.10.119.252"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 85.121.245.205:443 未实测"
+    type: vless
+    server: "85.121.245.205"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 193.134.209.165:443 未实测"
+    type: vless
+    server: "193.134.209.165"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 68.64.180.218:443 未实测"
+    type: vless
+    server: "68.64.180.218"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 149.104.29.188:443 未实测"
+    type: vless
+    server: "149.104.29.188"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 38.55.192.142:443 未实测"
+    type: vless
+    server: "38.55.192.142"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 96.9.228.241:443 未实测"
+    type: vless
+    server: "96.9.228.241"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 149.104.27.213:443 未实测"
+    type: vless
+    server: "149.104.27.213"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 港岛古惑 | HK | 45.152.65.78:443 未实测"
+    type: vless
+    server: "45.152.65.78"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 207.65.189.9:443 未实测"
+    type: vless
+    server: "207.65.189.9"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 43.167.224.16:443 未实测"
+    type: vless
+    server: "43.167.224.16"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 172.237.0.160:443 未实测"
+    type: vless
+    server: "172.237.0.160"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 13.231.172.130:443 未实测"
+    type: vless
+    server: "13.231.172.130"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 13.230.247.88:443 未实测"
+    type: vless
+    server: "13.230.247.88"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 3.113.213.171:443 未实测"
+    type: vless
+    server: "3.113.213.171"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 13.231.221.179:443 未实测"
+    type: vless
+    server: "13.231.221.179"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 216.238.54.196:443 未实测"
+    type: vless
+    server: "216.238.54.196"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 14.137.235.154:443 未实测"
+    type: vless
+    server: "14.137.235.154"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 小日本子 | JP | 64.204.49.136:8443 未实测"
+    type: vless
+    server: "64.204.49.136"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 123.111.169.70:8443 未实测"
+    type: vless
+    server: "123.111.169.70"
+    port: 8443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 131.186.16.166:443 未实测"
+    type: vless
+    server: "131.186.16.166"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 132.145.91.135:443 未实测"
+    type: vless
+    server: "132.145.91.135"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 123.111.169.70:2053 未实测"
+    type: vless
+    server: "123.111.169.70"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 193.122.115.184:443 未实测"
     type: vless
     server: "193.122.115.184"
     port: 443
@@ -3213,9 +3717,37 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR17 未实测"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 123.111.169.70:2083 未实测"
     type: vless
-    server: "141.164.34.193"
+    server: "123.111.169.70"
+    port: 2083
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 131.186.25.156:2087 未实测"
+    type: vless
+    server: "131.186.25.156"
+    port: 2087
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 193.122.119.241:443 未实测"
+    type: vless
+    server: "193.122.119.241"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3227,9 +3759,135 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR18 未实测"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 146.56.151.92:443 未实测"
     type: vless
-    server: "43.155.221.27"
+    server: "146.56.151.92"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 泡菜欧巴 | KR | 146.56.45.96:443 未实测"
+    type: vless
+    server: "146.56.45.96"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 178.93.160.132:443 未实测"
+    type: vless
+    server: "178.93.160.132"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 129.121.129.25:443 未实测"
+    type: vless
+    server: "129.121.129.25"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 168.107.90.208:443 未实测"
+    type: vless
+    server: "168.107.90.208"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 152.42.163.208:443 未实测"
+    type: vless
+    server: "152.42.163.208"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 167.150.100.46:443 未实测"
+    type: vless
+    server: "167.150.100.46"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 152.42.231.213:443 未实测"
+    type: vless
+    server: "152.42.231.213"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 178.128.125.110:443 未实测"
+    type: vless
+    server: "178.128.125.110"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 坡县狮城 | SG | 43.134.104.39:8443 未实测"
+    type: vless
+    server: "43.134.104.39"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3241,9 +3899,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR19 未实测"
+  - name: "天诚优选2 | 坡县狮城 | SG | 216.195.195.205:443 未实测"
     type: vless
-    server: "158.247.220.241"
+    server: "216.195.195.205"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3255,343 +3913,7 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "KR20 未实测"
-    type: vless
-    server: "158.247.253.111"
-    port: 8443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "KR21 未实测"
-    type: vless
-    server: "158.247.210.172"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG1 未实测"
-    type: vless
-    server: "185.115.207.58"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG2 未实测"
-    type: vless
-    server: "188.166.190.246"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG3 未实测"
-    type: vless
-    server: "178.93.160.236"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG4 未实测"
-    type: vless
-    server: "18.136.135.61"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG5 未实测"
-    type: vless
-    server: "185.126.80.79"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG6 未实测"
-    type: vless
-    server: "185.115.207.190"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG7 未实测"
-    type: vless
-    server: "185.115.207.82"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG8 未实测"
-    type: vless
-    server: "185.115.207.44"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG9 未实测"
-    type: vless
-    server: "185.239.226.172"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG10 未实测"
-    type: vless
-    server: "185.81.28.39"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG11 未实测"
-    type: vless
-    server: "185.115.207.203"
-    port: 8443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG12 未实测"
-    type: vless
-    server: "185.81.28.7"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG13 未实测"
-    type: vless
-    server: "185.115.207.90"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG14 未实测"
-    type: vless
-    server: "128.1.186.57"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG15 未实测"
-    type: vless
-    server: "188.239.9.91"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG16 未实测"
-    type: vless
-    server: "188.166.231.184"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG17 未实测"
-    type: vless
-    server: "152.42.174.94"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG18 未实测"
-    type: vless
-    server: "152.42.199.134"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG19 未实测"
-    type: vless
-    server: "18.141.208.166"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "SG20 未实测"
-    type: vless
-    server: "188.166.247.45"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "TW1 未实测"
-    type: vless
-    server: "151.242.188.249"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "TW2 未实测"
-    type: vless
-    server: "83.147.13.193"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "TW3 未实测"
+  - name: "天诚优选2 | 宝岛正妹 | TW | 140.235.39.162:443 未实测"
     type: vless
     server: "140.235.39.162"
     port: 443
@@ -3605,9 +3927,149 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "TW4 未实测"
+  - name: "天诚优选2 | 宝岛正妹 | TW | 83.147.15.84:443 未实测"
     type: vless
-    server: "103.137.22.71"
+    server: "83.147.15.84"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 宝岛正妹 | TW | 140.115.53.51:443 未实测"
+    type: vless
+    server: "140.115.53.51"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 宝岛正妹 | TW | 140.235.39.19:443 未实测"
+    type: vless
+    server: "140.235.39.19"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 宝岛正妹 | TW | 151.242.188.249:443 未实测"
+    type: vless
+    server: "151.242.188.249"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 大漂亮国 | US | 8.217.41.114:443 未实测"
+    type: vless
+    server: "8.217.41.114"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 大漂亮国 | US | 179.253.239.20:443 未实测"
+    type: vless
+    server: "179.253.239.20"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 大漂亮国 | US | 179.255.127.82:443 未实测"
+    type: vless
+    server: "179.255.127.82"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 大漂亮国 | US | 179.255.132.123:443 未实测"
+    type: vless
+    server: "179.255.132.123"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 大漂亮国 | US | 47.57.181.17:443 未实测"
+    type: vless
+    server: "47.57.181.17"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 大漂亮国 | US | 131.143.251.186:443 未实测"
+    type: vless
+    server: "131.143.251.186"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选2 | 大漂亮国 | US | 179.253.232.219:8443 未实测"
+    type: vless
+    server: "179.253.232.219"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3619,51 +4081,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "TW5 未实测"
+  - name: "天诚优选2 | 大漂亮国 | US | 179.255.123.150:2053 未实测"
     type: vless
-    server: "103.137.22.71"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "TW6 未实测"
-    type: vless
-    server: "188.253.6.249"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "TW7 未实测"
-    type: vless
-    server: "85.237.207.141"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "US1 未实测"
-    type: vless
-    server: "129.158.198.241"
+    server: "179.255.123.150"
     port: 2053
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3675,9 +4095,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US2 未实测"
+  - name: "天诚优选2 | 大漂亮国 | US | 159.60.146.81:443 未实测"
     type: vless
-    server: "129.159.119.161"
+    server: "159.60.146.81"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3689,9 +4109,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US3 未实测"
+  - name: "天诚优选2 | 大漂亮国 | US | 159.60.146.82:443 未实测"
     type: vless
-    server: "129.159.41.150"
+    server: "159.60.146.82"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3703,9 +4123,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US4 未实测"
+  - name: "天诚优选2 | 分享免费优选网 BestCF.pages.dev 未实测"
     type: vless
-    server: "108.165.23.23"
+    server: "162.159.197.1"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3717,9 +4137,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US5 未实测"
+  - name: "天诚优选1 | 港岛茶记 | HK | 38.47.103.125:443 未实测"
     type: vless
-    server: "134.122.0.192"
+    server: "38.47.103.125"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3731,9 +4151,779 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US6 未实测"
+  - name: "天诚优选1 | 港岛茶记 | HK | 216.236.51.143:1891 未实测"
     type: vless
-    server: "13.143.176.206"
+    server: "216.236.51.143"
+    port: 1891
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 港岛茶记 | HK | 43.154.4.49:443 未实测"
+    type: vless
+    server: "43.154.4.49"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 港岛茶记 | HK | 151.245.90.155:443 未实测"
+    type: vless
+    server: "151.245.90.155"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 港岛茶记 | HK | 216.236.51.1:1891 未实测"
+    type: vless
+    server: "216.236.51.1"
+    port: 1891
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 港岛茶记 | HK | 45.135.119.123:443 未实测"
+    type: vless
+    server: "45.135.119.123"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 港岛茶记 | HK | 64.90.28.28:443 未实测"
+    type: vless
+    server: "64.90.28.28"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 港岛茶记 | HK | 18.166.93.197:443 未实测"
+    type: vless
+    server: "18.166.93.197"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 港岛茶记 | HK | 95.41.7.96:443 未实测"
+    type: vless
+    server: "95.41.7.96"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 103.26.8.38:443 未实测"
+    type: vless
+    server: "103.26.8.38"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 50.114.5.136:443 未实测"
+    type: vless
+    server: "50.114.5.136"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 13.213.246.120:443 未实测"
+    type: vless
+    server: "13.213.246.120"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 52.74.215.197:443 未实测"
+    type: vless
+    server: "52.74.215.197"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 54.151.249.183:443 未实测"
+    type: vless
+    server: "54.151.249.183"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 13.229.188.156:443 未实测"
+    type: vless
+    server: "13.229.188.156"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 56.68.38.72:443 未实测"
+    type: vless
+    server: "56.68.38.72"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 18.138.159.123:443 未实测"
+    type: vless
+    server: "18.138.159.123"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 111.119.193.50:443 未实测"
+    type: vless
+    server: "111.119.193.50"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 印加坡县 | SG | 103.195.190.160:443 未实测"
+    type: vless
+    server: "103.195.190.160"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 小日本儿 | JP | 172.64.229.54:443 未实测"
+    type: vless
+    server: "172.64.229.54"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 小日本儿 | JP | 172.64.229.149:443 未实测"
+    type: vless
+    server: "172.64.229.149"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 小日本儿 | JP | 172.64.229.36:443 未实测"
+    type: vless
+    server: "172.64.229.36"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 小日本儿 | JP | 52.197.247.0:443 未实测"
+    type: vless
+    server: "52.197.247.0"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 小日本儿 | JP | 124.156.218.72:443 未实测"
+    type: vless
+    server: "124.156.218.72"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 小日本儿 | JP | 39.105.116.53:443 未实测"
+    type: vless
+    server: "39.105.116.53"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 小日本儿 | JP | 69.8.128.54:443 未实测"
+    type: vless
+    server: "69.8.128.54"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 141.11.87.208:443 未实测"
+    type: vless
+    server: "141.11.87.208"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 166.0.199.127:443 未实测"
+    type: vless
+    server: "166.0.199.127"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 156.245.236.112:443 未实测"
+    type: vless
+    server: "156.245.236.112"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 154.40.60.245:443 未实测"
+    type: vless
+    server: "154.40.60.245"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 151.242.188.203:443 未实测"
+    type: vless
+    server: "151.242.188.203"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 2.27.174.242:443 未实测"
+    type: vless
+    server: "2.27.174.242"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 151.242.189.41:443 未实测"
+    type: vless
+    server: "151.242.189.41"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 151.242.189.126:443 未实测"
+    type: vless
+    server: "151.242.189.126"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 85.237.206.182:443 未实测"
+    type: vless
+    server: "85.237.206.182"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 宝岛正妹 | TW | 154.40.60.126:443 未实测"
+    type: vless
+    server: "154.40.60.126"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 134.185.120.156:443 未实测"
+    type: vless
+    server: "134.185.120.156"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 168.107.19.26:443 未实测"
+    type: vless
+    server: "168.107.19.26"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 59.12.86.175:12169 未实测"
+    type: vless
+    server: "59.12.86.175"
+    port: 12169
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 211.229.239.50:12240 未实测"
+    type: vless
+    server: "211.229.239.50"
+    port: 12240
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 61.73.210.209:12181 未实测"
+    type: vless
+    server: "61.73.210.209"
+    port: 12181
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 43.155.187.201:443 未实测"
+    type: vless
+    server: "43.155.187.201"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 158.180.94.17:443 未实测"
+    type: vless
+    server: "158.180.94.17"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 43.155.165.247:443 未实测"
+    type: vless
+    server: "43.155.165.247"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 43.133.76.171:443 未实测"
+    type: vless
+    server: "43.133.76.171"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 泡菜欧巴 | KR | 222.235.190.141:12183 未实测"
+    type: vless
+    server: "222.235.190.141"
+    port: 12183
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 116.62.228.236:443 未实测"
+    type: vless
+    server: "116.62.228.236"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 47.99.164.61:443 未实测"
+    type: vless
+    server: "47.99.164.61"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 69.8.129.49:443 未实测"
+    type: vless
+    server: "69.8.129.49"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 69.63.210.29:24240 未实测"
+    type: vless
+    server: "69.63.210.29"
+    port: 24240
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 61.172.182.19:443 未实测"
+    type: vless
+    server: "61.172.182.19"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 64.83.31.191:443 未实测"
+    type: vless
+    server: "64.83.31.191"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 179.253.255.55:443 未实测"
+    type: vless
+    server: "179.253.255.55"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 199.19.108.40:443 未实测"
+    type: vless
+    server: "199.19.108.40"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 199.180.116.11:443 未实测"
+    type: vless
+    server: "199.180.116.11"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 战争贩子 | US | 64.204.26.15:443 未实测"
+    type: vless
+    server: "64.204.26.15"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 元首复活 | DE | 82.139.194.116:8443 未实测"
+    type: vless
+    server: "82.139.194.116"
     port: 8443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3745,9 +4935,37 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US7 未实测"
+  - name: "天诚优选1 | 元首复活 | DE | 152.53.87.10:443 未实测"
     type: vless
-    server: "134.209.166.201"
+    server: "152.53.87.10"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 元首复活 | DE | 172.66.130.183:443 未实测"
+    type: vless
+    server: "172.66.130.183"
+    port: 443
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 元首复活 | DE | 45.147.51.142:2053 未实测"
+    type: vless
+    server: "45.147.51.142"
     port: 2053
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3759,9 +4977,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US8 未实测"
+  - name: "天诚优选1 | 元首复活 | DE | 199.247.18.248:443 未实测"
     type: vless
-    server: "104.131.166.120"
+    server: "199.247.18.248"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3773,9 +4991,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US9 未实测"
+  - name: "天诚优选1 | 元首复活 | DE | 51.77.203.204:443 未实测"
     type: vless
-    server: "107.191.58.226"
+    server: "51.77.203.204"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3787,9 +5005,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US10 未实测"
+  - name: "天诚优选1 | 元首复活 | DE | 172.67.78.173:443 未实测"
     type: vless
-    server: "108.61.216.174"
+    server: "172.67.78.173"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3801,9 +5019,23 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US11 未实测"
+  - name: "天诚优选1 | 元首复活 | DE | 130.17.27.122:2053 未实测"
     type: vless
-    server: "104.233.158.148"
+    server: "130.17.27.122"
+    port: 2053
+    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
+    udp: true
+    tls: true
+    servername: "open.nmbot.de5.net"
+    client-fingerprint: "chrome"
+    network: ws
+    ws-opts:
+      path: "/proxyip=fxxk.dedyn.io"
+      headers:
+        Host: "open.nmbot.de5.net"
+  - name: "天诚优选1 | 元首复活 | DE | 2.26.249.185:443 未实测"
+    type: vless
+    server: "2.26.249.185"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3815,51 +5047,9 @@ proxies:
       path: "/proxyip=fxxk.dedyn.io"
       headers:
         Host: "open.nmbot.de5.net"
-  - name: "US12 未实测"
+  - name: "天诚优选1 | 元首复活 | DE | 18.156.58.89:443 未实测"
     type: vless
-    server: "113.20.0.110"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "US13 未实测"
-    type: vless
-    server: "108.186.129.43"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "US14 未实测"
-    type: vless
-    server: "132.243.28.205"
-    port: 443
-    uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
-    udp: true
-    tls: true
-    servername: "open.nmbot.de5.net"
-    client-fingerprint: "chrome"
-    network: ws
-    ws-opts:
-      path: "/proxyip=fxxk.dedyn.io"
-      headers:
-        Host: "open.nmbot.de5.net"
-  - name: "US15 未实测"
-    type: vless
-    server: "104.168.134.130"
+    server: "18.156.58.89"
     port: 443
     uuid: "2e16f730-f641-449a-9ca1-fa0cf3f16118"
     udp: true
@@ -3954,206 +5144,291 @@ proxy-groups:
       - "未知-1337ms 电信"
       - "未知-1360ms 电信"
       - "LAX-2294ms 电信"
-      - "🇹🇼 台湾 · 台北市 (TW) 175 ms 未实测"
-      - "🇹🇼 台湾 · 內湖 (TW) 191 ms 未实测"
-      - "🇯🇵 日本 (JP) 44 ms 优 未实测"
-      - "🇯🇵 日本 (JP) 46 ms 优 未实测"
-      - "🇯🇵 日本 (JP) 47 ms 优 未实测"
-      - "🇯🇵 日本 (JP) 53 ms 优 未实测"
-      - "🇯🇵 日本 (JP) 54 ms 优 未实测"
-      - "🇯🇵 日本 · 东京 (JP) 41 ms 优 未实测"
-      - "🇰🇷 韩国 · Yeongdeungpo-gu (KR) 51 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 47 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 48 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 49 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 50 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 52 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 54 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 54 ms 优 未实测-2"
-      - "🇸🇬 新加坡 (SG) 58 ms 优 未实测"
-      - "🇸🇬 新加坡 (SG) 60 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 61 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 61 ms 未实测-2"
-      - "🇸🇬 新加坡 (SG) 63 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 63 ms 未实测-2"
-      - "🇸🇬 新加坡 (SG) 64 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 64 ms 未实测-2"
-      - "🇸🇬 新加坡 (SG) 65 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 65 ms 未实测-2"
-      - "🇸🇬 新加坡 (SG) 65 ms 未实测-3"
-      - "🇸🇬 新加坡 (SG) 65 ms 未实测-4"
-      - "🇸🇬 新加坡 (SG) 65 ms 未实测-5"
-      - "🇸🇬 新加坡 (SG) 66 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 67 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 68 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 69 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 70 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 72 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 74 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 75 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 79 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 79 ms 未实测-2"
-      - "🇸🇬 新加坡 (SG) 83 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 83 ms 未实测-2"
-      - "🇸🇬 新加坡 (SG) 83 ms 未实测-3"
-      - "🇸🇬 新加坡 (SG) 90 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 93 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 96 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 97 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 107 ms 未实测"
-      - "🇸🇬 新加坡 (SG) 200 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 47 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 50 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 50 ms 优 未实测-2"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 51 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 53 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 53 ms 优 未实测-2"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 54 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 56 ms 优 未实测"
-      - "🇰🇷 韩国 · 首尔特别市 (KR) 57 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 58 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 59 ms 优 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 62 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 63 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 65 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 67 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 67 ms 未实测-2"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 67 ms 未实测-3"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 70 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 70 ms 未实测-2"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 70 ms 未实测-3"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 71 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 73 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 75 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 76 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 76 ms 未实测-2"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 76 ms 未实测-3"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 79 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 81 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 82 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 84 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 92 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 100 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 108 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 137 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 142 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 158 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 164 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 167 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 169 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 227 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 228 ms 未实测"
-      - "🇸🇬 新加坡 · 新加坡 (SG) 243 ms 未实测"
-      - "HK1 未实测"
-      - "HK2 未实测"
-      - "HK3 未实测"
-      - "HK4 未实测"
-      - "HK5 未实测"
-      - "HK6 未实测"
-      - "HK7 未实测"
-      - "HK8 未实测"
-      - "HK9 未实测"
-      - "HK10 未实测"
-      - "HK11 未实测"
-      - "HK12 未实测"
-      - "HK13 未实测"
-      - "HK14 未实测"
-      - "HK15 未实测"
-      - "HK16 未实测"
-      - "HK17 未实测"
-      - "HK18 未实测"
-      - "HK19 未实测"
-      - "HK20 未实测"
-      - "HK21 未实测"
-      - "HK22 未实测"
-      - "HK23 未实测"
-      - "HK24 未实测"
-      - "JP1 未实测"
-      - "JP2 未实测"
-      - "JP3 未实测"
-      - "JP4 未实测"
-      - "JP5 未实测"
-      - "JP6 未实测"
-      - "JP7 未实测"
-      - "JP8 未实测"
-      - "JP9 未实测"
-      - "JP10 未实测"
-      - "JP11 未实测"
-      - "JP12 未实测"
-      - "JP13 未实测"
-      - "JP14 未实测"
-      - "JP15 未实测"
-      - "JP16 未实测"
-      - "JP17 未实测"
-      - "JP18 未实测"
-      - "JP19 未实测"
-      - "JP20 未实测"
-      - "JP21 未实测"
-      - "JP22 未实测"
-      - "JP23 未实测"
-      - "KR1 未实测"
-      - "KR2 未实测"
-      - "KR3 未实测"
-      - "KR4 未实测"
-      - "KR5 未实测"
-      - "KR6 未实测"
-      - "KR7 未实测"
-      - "KR8 未实测"
-      - "KR9 未实测"
-      - "KR10 未实测"
-      - "KR11 未实测"
-      - "KR12 未实测"
-      - "KR13 未实测"
-      - "KR14 未实测"
-      - "KR15 未实测"
-      - "KR16 未实测"
-      - "KR17 未实测"
-      - "KR18 未实测"
-      - "KR19 未实测"
-      - "KR20 未实测"
-      - "KR21 未实测"
-      - "SG1 未实测"
-      - "SG2 未实测"
-      - "SG3 未实测"
-      - "SG4 未实测"
-      - "SG5 未实测"
-      - "SG6 未实测"
-      - "SG7 未实测"
-      - "SG8 未实测"
-      - "SG9 未实测"
-      - "SG10 未实测"
-      - "SG11 未实测"
-      - "SG12 未实测"
-      - "SG13 未实测"
-      - "SG14 未实测"
-      - "SG15 未实测"
-      - "SG16 未实测"
-      - "SG17 未实测"
-      - "SG18 未实测"
-      - "SG19 未实测"
-      - "SG20 未实测"
-      - "TW1 未实测"
-      - "TW2 未实测"
-      - "TW3 未实测"
-      - "TW4 未实测"
-      - "TW5 未实测"
-      - "TW6 未实测"
-      - "TW7 未实测"
-      - "US1 未实测"
-      - "US2 未实测"
-      - "US3 未实测"
-      - "US4 未实测"
-      - "US5 未实测"
-      - "US6 未实测"
-      - "US7 未实测"
-      - "US8 未实测"
-      - "US9 未实测"
-      - "US10 未实测"
-      - "US11 未实测"
-      - "US12 未实测"
-      - "US13 未实测"
-      - "US14 未实测"
-      - "US15 未实测"
+      - "HK›HKG天诚🌐官方🌐交流🌐群组™：@zyssadmin 未实测"
+      - "HK›HKG天诚🌐官方🌐分享🌐群组™：@AutoSubFBot 未实测"
+      - "HK›HKG天诚🌐官方🌐发布🌐频道™：@zyssadmin 未实测"
+      - "HK›HKG天诚🌐官方🌐获取🌐群组™：@AutoSubFBot 未实测"
+      - "HK›HKG天诚🌐官方🌐更新🌐群组™：@AutoSubFBot 未实测"
+      - "HK›HKG 未实测"
+      - "HK›SJC 未实测"
+      - "HK›HKG 未实测-2"
+      - "HK›NRT 未实测"
+      - "HK›HKG 未实测-3"
+      - "TW›TPE 未实测"
+      - "TW›HKG 未实测"
+      - "TW›TPE 未实测-2"
+      - "TW›TPE 未实测-3"
+      - "TW›TPE 未实测-4"
+      - "SG›SIN 未实测"
+      - "SG›ICN 未实测"
+      - "SG›ARN 未实测"
+      - "SG›SIN 未实测-2"
+      - "SG›AMS 未实测"
+      - "SG›SIN 未实测-3"
+      - "SG›SIN 未实测-4"
+      - "SG›SIN 未实测-5"
+      - "SG›ARN 未实测-2"
+      - "SG›SIN 未实测-6"
+      - "JP›KIX 未实测"
+      - "JP›NRT 未实测"
+      - "JP›NRT 未实测-2"
+      - "JP›NRT 未实测-3"
+      - "JP›NRT 未实测-4"
+      - "JP›NRT 未实测-5"
+      - "JP›NRT 未实测-6"
+      - "JP›NRT 未实测-7"
+      - "JP›KIX 未实测-2"
+      - "JP›KIX 未实测-3"
+      - "US›NRT 未实测"
+      - "US›LAX 未实测"
+      - "US›LAX 未实测-2"
+      - "US›LAX 未实测-3"
+      - "US›LAX 未实测-4"
+      - "US›SJC 未实测"
+      - "US›LAX 未实测-5"
+      - "US›LAX 未实测-6"
+      - "US›LAX 未实测-7"
+      - "US›LAX 未实测-8"
+      - "KR›ICN 未实测"
+      - "KR›NRT 未实测"
+      - "KR›SEA 未实测"
+      - "KR›ICN 未实测-2"
+      - "KR›ICN 未实测-3"
+      - "KR›ICN 未实测-4"
+      - "KR›ICN 未实测-5"
+      - "KR›HKG 未实测"
+      - "KR›HKG 未实测-2"
+      - "KR›PDX 未实测"
+      - "DE›FRA 未实测"
+      - "DE›FRA 未实测-2"
+      - "DE›FRA 未实测-3"
+      - "DE›FRA 未实测-4"
+      - "DE›FRA 未实测-5"
+      - "DE›FRA 未实测-6"
+      - "DE›FRA 未实测-7"
+      - "DE›FRA 未实测-8"
+      - "DE›CDG 未实测"
+      - "DE›HAM 未实测"
+      - "官方优选01 未实测"
+      - "官方优选02 未实测"
+      - "官方优选03 未实测"
+      - "官方优选04 未实测"
+      - "官方优选05 未实测"
+      - "官方优选06 未实测"
+      - "官方优选07 未实测"
+      - "官方优选08 未实测"
+      - "官方优选10 未实测"
+      - "中国电信 未实测"
+      - "中国移动 未实测"
+      - "中国联通 未实测"
+      - "中国三网 未实测"
+      - "联通-LAX-443-WS-TLS 未实测"
+      - "联通-LAX-8443-WS-TLS 未实测"
+      - "联通-LAX-2053-WS-TLS 未实测"
+      - "联通-LAX-2087-WS-TLS 未实测"
+      - "联通-LAX-2096-WS-TLS 未实测"
+      - "联通-LAX-443-WS-TLS 未实测-2"
+      - "联通-LAX-8443-WS-TLS 未实测-2"
+      - "联通-LAX-2053-WS-TLS 未实测-2"
+      - "联通-LAX-2087-WS-TLS 未实测-2"
+      - "联通-LAX-2096-WS-TLS 未实测-2"
+      - "联通-LAX-443-WS-TLS 未实测-3"
+      - "联通-LAX-8443-WS-TLS 未实测-3"
+      - "联通-LAX-2053-WS-TLS 未实测-3"
+      - "联通-LAX-2087-WS-TLS 未实测-3"
+      - "联通-LAX-2096-WS-TLS 未实测-3"
+      - "联通-LAX-443-WS-TLS 未实测-4"
+      - "联通-LAX-8443-WS-TLS 未实测-4"
+      - "联通-LAX-2053-WS-TLS 未实测-4"
+      - "联通-LAX-2087-WS-TLS 未实测-4"
+      - "联通-LAX-2096-WS-TLS 未实测-4"
+      - "电信-SIN-443-WS-TLS 未实测"
+      - "电信-SIN-8443-WS-TLS 未实测"
+      - "电信-SIN-2053-WS-TLS 未实测"
+      - "电信-SIN-2087-WS-TLS 未实测"
+      - "电信-SIN-2096-WS-TLS 未实测"
+      - "联通-LAX-443-WS-TLS 未实测-5"
+      - "联通-LAX-8443-WS-TLS 未实测-5"
+      - "联通-LAX-2053-WS-TLS 未实测-5"
+      - "联通-LAX-2087-WS-TLS 未实测-5"
+      - "联通-LAX-2096-WS-TLS 未实测-5"
+      - "移动-HKG-443-WS-TLS 未实测"
+      - "移动-HKG-8443-WS-TLS 未实测"
+      - "移动-HKG-2053-WS-TLS 未实测"
+      - "移动-HKG-2087-WS-TLS 未实测"
+      - "移动-HKG-2096-WS-TLS 未实测"
+      - "移动-LHR-443-WS-TLS 未实测"
+      - "移动-LHR-8443-WS-TLS 未实测"
+      - "移动-LHR-2053-WS-TLS 未实测"
+      - "移动-LHR-2087-WS-TLS 未实测"
+      - "移动-LHR-2096-WS-TLS 未实测"
+      - "移动-LHR-443-WS-TLS 未实测-2"
+      - "移动-LHR-8443-WS-TLS 未实测-2"
+      - "移动-LHR-2053-WS-TLS 未实测-2"
+      - "移动-LHR-2087-WS-TLS 未实测-2"
+      - "移动-LHR-2096-WS-TLS 未实测-2"
+      - "移动-LHR-443-WS-TLS 未实测-3"
+      - "移动-LHR-8443-WS-TLS 未实测-3"
+      - "移动-LHR-2053-WS-TLS 未实测-3"
+      - "移动-LHR-2087-WS-TLS 未实测-3"
+      - "移动-LHR-2096-WS-TLS 未实测-3"
+      - "电信-SIN-443-WS-TLS 未实测-2"
+      - "电信-SIN-8443-WS-TLS 未实测-2"
+      - "电信-SIN-2053-WS-TLS 未实测-2"
+      - "电信-SIN-2087-WS-TLS 未实测-2"
+      - "电信-SIN-2096-WS-TLS 未实测-2"
+      - "电信-SIN-443-WS-TLS 未实测-3"
+      - "电信-SIN-8443-WS-TLS 未实测-3"
+      - "电信-SIN-2053-WS-TLS 未实测-3"
+      - "电信-SIN-2087-WS-TLS 未实测-3"
+      - "电信-SIN-2096-WS-TLS 未实测-3"
+      - "电信-SIN-443-WS-TLS 未实测-4"
+      - "电信-SIN-8443-WS-TLS 未实测-4"
+      - "电信-SIN-2053-WS-TLS 未实测-4"
+      - "电信-SIN-2087-WS-TLS 未实测-4"
+      - "电信-SIN-2096-WS-TLS 未实测-4"
+      - "电信-SIN-443-WS-TLS 未实测-5"
+      - "电信-SIN-8443-WS-TLS 未实测-5"
+      - "电信-SIN-2053-WS-TLS 未实测-5"
+      - "电信-SIN-2087-WS-TLS 未实测-5"
+      - "电信-SIN-2096-WS-TLS 未实测-5"
+      - "移动-HKG-443-WS-TLS 未实测-2"
+      - "移动-HKG-8443-WS-TLS 未实测-2"
+      - "移动-HKG-2053-WS-TLS 未实测-2"
+      - "移动-HKG-2087-WS-TLS 未实测-2"
+      - "移动-HKG-2096-WS-TLS 未实测-2"
+      - "天诚优选2 全量版 | 11-13 08:07 | BestCF.pages.dev 未实测"
+      - "天诚优选2 | 元首复活 | DE | 64.226.84.161:443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 64.226.95.244:2053 未实测"
+      - "天诚优选2 | 元首复活 | DE | 46.224.85.150:443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 57.131.137.241:443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 195.123.237.140:443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 64.226.88.144:8443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 95.169.166.160:443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 94.16.111.116:8443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 45.147.48.147:443 未实测"
+      - "天诚优选2 | 元首复活 | DE | 45.136.29.99:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 43.161.253.137:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 122.10.119.252:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 85.121.245.205:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 193.134.209.165:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 68.64.180.218:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 149.104.29.188:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 38.55.192.142:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 96.9.228.241:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 149.104.27.213:443 未实测"
+      - "天诚优选2 | 港岛古惑 | HK | 45.152.65.78:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 207.65.189.9:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 43.167.224.16:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 172.237.0.160:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 13.231.172.130:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 13.230.247.88:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 3.113.213.171:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 13.231.221.179:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 216.238.54.196:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 14.137.235.154:443 未实测"
+      - "天诚优选2 | 小日本子 | JP | 64.204.49.136:8443 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 123.111.169.70:8443 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 131.186.16.166:443 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 132.145.91.135:443 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 123.111.169.70:2053 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 193.122.115.184:443 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 123.111.169.70:2083 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 131.186.25.156:2087 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 193.122.119.241:443 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 146.56.151.92:443 未实测"
+      - "天诚优选2 | 泡菜欧巴 | KR | 146.56.45.96:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 178.93.160.132:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 129.121.129.25:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 168.107.90.208:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 152.42.163.208:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 167.150.100.46:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 152.42.231.213:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 178.128.125.110:443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 43.134.104.39:8443 未实测"
+      - "天诚优选2 | 坡县狮城 | SG | 216.195.195.205:443 未实测"
+      - "天诚优选2 | 宝岛正妹 | TW | 140.235.39.162:443 未实测"
+      - "天诚优选2 | 宝岛正妹 | TW | 83.147.15.84:443 未实测"
+      - "天诚优选2 | 宝岛正妹 | TW | 140.115.53.51:443 未实测"
+      - "天诚优选2 | 宝岛正妹 | TW | 140.235.39.19:443 未实测"
+      - "天诚优选2 | 宝岛正妹 | TW | 151.242.188.249:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 8.217.41.114:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 179.253.239.20:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 179.255.127.82:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 179.255.132.123:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 47.57.181.17:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 131.143.251.186:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 179.253.232.219:8443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 179.255.123.150:2053 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 159.60.146.81:443 未实测"
+      - "天诚优选2 | 大漂亮国 | US | 159.60.146.82:443 未实测"
+      - "天诚优选2 | 分享免费优选网 BestCF.pages.dev 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 38.47.103.125:443 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 216.236.51.143:1891 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 43.154.4.49:443 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 151.245.90.155:443 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 216.236.51.1:1891 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 45.135.119.123:443 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 64.90.28.28:443 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 18.166.93.197:443 未实测"
+      - "天诚优选1 | 港岛茶记 | HK | 95.41.7.96:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 103.26.8.38:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 50.114.5.136:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 13.213.246.120:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 52.74.215.197:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 54.151.249.183:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 13.229.188.156:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 56.68.38.72:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 18.138.159.123:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 111.119.193.50:443 未实测"
+      - "天诚优选1 | 印加坡县 | SG | 103.195.190.160:443 未实测"
+      - "天诚优选1 | 小日本儿 | JP | 172.64.229.54:443 未实测"
+      - "天诚优选1 | 小日本儿 | JP | 172.64.229.149:443 未实测"
+      - "天诚优选1 | 小日本儿 | JP | 172.64.229.36:443 未实测"
+      - "天诚优选1 | 小日本儿 | JP | 52.197.247.0:443 未实测"
+      - "天诚优选1 | 小日本儿 | JP | 124.156.218.72:443 未实测"
+      - "天诚优选1 | 小日本儿 | JP | 39.105.116.53:443 未实测"
+      - "天诚优选1 | 小日本儿 | JP | 69.8.128.54:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 141.11.87.208:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 166.0.199.127:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 156.245.236.112:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 154.40.60.245:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 151.242.188.203:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 2.27.174.242:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 151.242.189.41:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 151.242.189.126:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 85.237.206.182:443 未实测"
+      - "天诚优选1 | 宝岛正妹 | TW | 154.40.60.126:443 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 134.185.120.156:443 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 168.107.19.26:443 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 59.12.86.175:12169 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 211.229.239.50:12240 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 61.73.210.209:12181 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 43.155.187.201:443 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 158.180.94.17:443 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 43.155.165.247:443 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 43.133.76.171:443 未实测"
+      - "天诚优选1 | 泡菜欧巴 | KR | 222.235.190.141:12183 未实测"
+      - "天诚优选1 | 战争贩子 | US | 116.62.228.236:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 47.99.164.61:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 69.8.129.49:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 69.63.210.29:24240 未实测"
+      - "天诚优选1 | 战争贩子 | US | 61.172.182.19:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 64.83.31.191:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 179.253.255.55:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 199.19.108.40:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 199.180.116.11:443 未实测"
+      - "天诚优选1 | 战争贩子 | US | 64.204.26.15:443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 82.139.194.116:8443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 152.53.87.10:443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 172.66.130.183:443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 45.147.51.142:2053 未实测"
+      - "天诚优选1 | 元首复活 | DE | 199.247.18.248:443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 51.77.203.204:443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 172.67.78.173:443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 130.17.27.122:2053 未实测"
+      - "天诚优选1 | 元首复活 | DE | 2.26.249.185:443 未实测"
+      - "天诚优选1 | 元首复活 | DE | 18.156.58.89:443 未实测"
   - name: "♻️ 自动选择"
     type: url-test
     url: "http://www.gstatic.com/generate_204"
